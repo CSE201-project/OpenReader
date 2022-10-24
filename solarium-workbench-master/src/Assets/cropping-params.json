@@ -1,0 +1,366 @@
+{
+    "proto-lmx02": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "visible": {
+                    "intensity": 20,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 30,
+            "gain_green": 0,
+            "gain_blue": 20,
+            "snapshot_delay": 200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 100,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 40,
+            "gain_green": 40,
+            "gain_blue": 30,
+            "snapshot_delay": 200
+        }
+    },
+    "proto-lmx03": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "visible": {
+                    "intensity": 20,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 30,
+            "gain_green": 0,
+            "gain_blue": 20,
+            "snapshot_delay": 200
+        },
+        "K701WT": {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 100,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 40,
+            "gain_green": 40,
+            "gain_blue": 30,
+            "snapshot_delay": 200
+        }
+    },
+    "proto-lmx04": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "visible": {
+                    "intensity": 20,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 30,
+            "gain_green": 0,
+            "gain_blue": 20,
+            "snapshot_delay": 200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 100,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 40,
+            "gain_green": 40,
+            "gain_blue": 30,
+            "snapshot_delay": 200
+        }
+    },
+    "proto-lmx05": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "visible": {
+                    "intensity": 20,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 30,
+            "gain_green": 0,
+            "gain_blue": 20,
+            "snapshot_delay": 200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 100,
+                    "status": "enabled"
+                }
+            },
+            "color_depth": "8bits",
+            "awb": "off",
+            "exposure": 60,
+            "gain_master": 40,
+            "gain_red": 40,
+            "gain_green": 40,
+            "gain_blue": 30,
+            "snapshot_delay": 200
+        }
+    },
+    "mario-Latitude-5401": {
+        "cropping_param": true,
+        "LEDs_params": {
+            "uv": {
+                "intensity": 240,
+                "status": "enabled"
+            },
+            "visible": {
+                "intensity": 0,
+                "status": "disabled"
+            }
+        },
+        "color_depth": "8bits",
+        "awb": "off",
+        "exposure": 30,
+        "gain_master": 30,
+        "gain_red": 50,
+        "gain_green": 0,
+        "gain_blue": 30
+    },
+    "lmx-301": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 0,
+                    "status": "disabled"
+                },
+                "visible": {
+                    "intensity": 5,
+                    "status": "enabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 8,
+            "contrast": 8,
+            "saturation": 7,
+            "hue": 0,
+            "snapshot_delay":200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 50,
+                    "status": "enabled"
+                },
+                "visible": {
+                    "intensity": 0,
+                    "status": "disabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 10,
+            "contrast": 10,
+            "saturation": 10,
+            "hue": 0,
+            "snapshot_delay":200
+        }
+    },
+    "lmx-302": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 0,
+                    "status": "disabled"
+                },
+                "visible": {
+                    "intensity": 5,
+                    "status": "enabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 4,
+            "contrast": 8,
+            "saturation": 7,
+            "hue": 0,
+            "snapshot_delay":200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 50,
+                    "status": "enabled"
+                },
+                "visible": {
+                    "intensity": 0,
+                    "status": "disabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 10,
+            "contrast": 10,
+            "saturation": 10,
+            "hue": 0,
+            "snapshot_delay":200
+        }
+    },
+    "lmx-303": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 0,
+                    "status": "disabled"
+                },
+                "visible": {
+                    "intensity": 1,
+                    "status": "enabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 8,
+            "contrast": 8,
+            "saturation": 7,
+            "hue": 0,
+            "snapshot_delay":200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 50,
+                    "status": "enabled"
+                },
+                "visible": {
+                    "intensity": 0,
+                    "status": "disabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 10,
+            "contrast": 10,
+            "saturation": 10,
+            "hue": 0,
+            "snapshot_delay":200
+        }
+    },
+    "lmx-304": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 0,
+                    "status": "disabled"
+                },
+                "visible": {
+                    "intensity": 1,
+                    "status": "enabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 8,
+            "contrast": 8,
+            "saturation": 7,
+            "hue": 0,
+            "snapshot_delay":200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 50,
+                    "status": "enabled"
+                },
+                "visible": {
+                    "intensity": 0,
+                    "status": "disabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 10,
+            "contrast": 10,
+            "saturation": 10,
+            "hue": 0,
+            "snapshot_delay":200
+        }
+    },
+    "lmx-305": {
+        "K701BT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 0,
+                    "status": "disabled"
+                },
+                "visible": {
+                    "intensity": 5,
+                    "status": "enabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 8,
+            "contrast": 8,
+            "saturation": 7,
+            "hue": 0,
+            "snapshot_delay":200
+        },
+        "K701WT" : {
+            "cropping_param": true,
+            "LEDs_params": {
+                "uv": {
+                    "intensity": 30,
+                    "status": "enabled"
+                },
+                "visible": {
+                    "intensity": 0,
+                    "status": "disabled"
+                }
+            },
+            "exposure": 30,
+            "brightness": 10,
+            "contrast": 10,
+            "saturation": 14,
+            "hue": 5,
+            "snapshot_delay":200
+        }
+    }
+}

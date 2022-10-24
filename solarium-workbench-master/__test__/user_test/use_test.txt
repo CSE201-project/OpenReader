@@ -1,0 +1,42 @@
+        Analyse Use Test
+
+* Depuis l'écran d'accueil cliquer sur le boutton 'Analyse Use Test' pour commencer la prise de mesures
+
+* Un boutton 'Back' est toujours présent en haut de l'écran afin de revenir à l'écran précédent
+
+* Initialisation de l'étude :
+        - Saisir un répertoire de sauvegarde en cliquant sur le boutton '...'
+        - Rentrer un nom d'étude dans le champ "Study Name"
+            - Le Workbench crééra un dossier du même nom que l'étude dans le répertoire précédemenent sélectionné
+        - Renter une unité de concentration valide
+            - Une concentration valide ne contient que 4 lettres
+        - Renter une liste de concentrations valides
+            - Une liste valide ne contient que des chiffres et des points
+            - Les concentrations doivent être séparées par un retour à la ligne
+        - Une fois tous les champs correctement remplis, les bouttons 'Calibration' et 'Next' deviennent accessibles
+            - Le boutton 'Calibration' permet d'accéder à l'écran de calibration afin de calibrer la caméra pour l'étude en cours
+            - Le boutton 'Next' permet de continuer l'étude en cours
+
+* Modifier l'étude en cours :
+        - Il est possible de revenir à tout moment à l'écran d'initialisation afin de modifier la liste de concentration
+        - Le nom de l'étude ainsi que l'unité de concentration ne peuvent pas être modifiés après avoir commencé l'étude
+        - Il n'est pour l'instant pas possible d'insérer une étude entre deux concentrations existantes, cela peut entrainer un comportement imprévu de la part du Workbench
+        - Une concentration existante peut être renommée
+        - Les nouvelles concentrations doivent être rajoutées en fin de liste
+
+* Une icône 'Paramètres' sera toujours présente en haut des écran suivant, elle permet d'accéder à l'écran de calibration
+
+* Selection d'une concentration :
+        - Sélectionner une concentration permet d'accéder a l'écran de prise d'image
+        - Le nombre d'image déjà prise pour une concentration est indiqué à côté du nom de la concentration
+
+* Prise d'image :
+        - Le nom de la concentration, le répertoire de destination et le nombre d'images prises sont indiqués
+        - L'icône 'Appareil Photo' permet de prendre une photo
+            - Celle-ci est automatiquement sauvegardée dans le répertoire de sauvegarde avec les paramètres de caméra utilisés
+        - L'icône 'Poubelle' permet de supprimer la dernière image prise
+            - L'image est à la fois supprimée de l'étude en cours et du répertoire de sauvegarde
+            - Il n'est pas possible de supprimer plusieurs images d'affilé : seule l'image qui vient d'être prise peut être supprimée
+        - Le boutton 'Next Concentration' permet d'accéder à la concentration suivante en fonction de l'ordre dans lequel l'utilisateur a renter ses concentrations
+        - Il est toujours possible de revenir à une ancienne concentration en se servant du boutton 'Back'
+        - Si il n'y a plus de concentration dans la liste, le boutton 'End Study' vient remplacer le boutton 'Next Concentration', ce dernier met fin à l'étude et renvoie l'utilisateur à l'écran d'accueil
