@@ -1,0 +1,47 @@
+//
+// Created by Mario Valdivia <mario@lumedix.com> on 2021/04/27.
+// Copyright (c) 2021 LumediX. All rights reserved.
+//
+
+#ifndef SOLARIUM_IMX8_DEFS_H
+#define SOLARIUM_IMX8_DEFS_H
+
+#define IMX8X_I2C0_BUS  	0
+#define IMX8X_I2C3_BUS  	3
+#define IMX8X_LEDS_BUS  	17
+#define IMX8X_MIPI_I2C0_BUS  	17
+
+
+#define DEFAULT_I2C_BUS		"DEFAULT_I2C_BUS"
+#define SYS_POWER_CTRL_GPIO "LEDS_I2C_BUS"
+
+#define SYS_POWER_GPIO      "SYS_PWR_GPIO"
+#define BATTERY_I2C_BUS     IMX8X_MIPI_I2C0_BUS
+
+#define LEDS_CTRL_I2C_BUS 	"LEDS_I2C_BUS"
+
+#define I2C3_I2C_BUS 		17
+
+
+#define UVS_SENSOR_I2C_ID   IMX8X_MIPI_I2C0_BUS
+#define UVS_SENSOR2_I2C_ID   IMX8X_I2C3_BUS
+#define UVS_SENSOR_ADDR     0x39
+
+#define VISIBLE_SENSOR_I2C_ID   IMX8X_MIPI_I2C0_BUS
+#define VISIBLE_SENSOR2_I2C_ID   IMX8X_I2C3_BUS
+#define VISIBLE_SENSOR_I2C_ADDR VEML6035_I2C_ADDRESS
+
+
+// yes, we know UV and VIS are switch
+#define UV_LED_GPIO         "VIS_CTRL_GPIO"
+#define UV_LED_I2C_BUS      IMX8X_I2C3_BUS
+#define UV_LED_I2C_ADDR     0x38
+
+#define VISIBLE_LED_GPIO        "UV_CTRL_GPIO"
+#define VISIBLE_LED_I2C_BUS     IMX8X_I2C3_BUS
+#define VISIBLE_LED_I2C_ADDR    0x3A
+
+#define TEMP_SENSOR_I2C_BUS     IMX8X_MIPI_I2C0_BUS
+#define TEMP_SENSOR2_I2C_BUS     IMX8X_I2C3_BUS
+
+#endif //SOLARIUM_IMX8_DEFS_H

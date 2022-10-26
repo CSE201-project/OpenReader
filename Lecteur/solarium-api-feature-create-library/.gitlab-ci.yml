@@ -1,0 +1,42 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+build:create_npmrc:
+  stage: build
+  script:
+    - |
+      if [ ! -f .npmrc ]; then echo .npmrc missing. Creating one now. Please review the following link for more information https://docs.gitlab.com/ee/user/project/packages/npm_registry.html#authenticating-with-an-oauth-token;
+          export NPM_PROJECT_URL=$(echo "$CI_PROJECT_URL" | sed "s/${CI_PROJECT_PATH//\//\\/}/api\/v4/g")
+          export NPM_REGISTRY_PATHS=$(echo "$CI_PROJECT_URL" | sed "s/${CI_PROJECT_PATH//\//\\/}/api\/v4/g")
+          export NPMRC_URL=$(echo "$NPM_REGISTRY_PATHS" |  sed 's/[^:]*[:]//')
+          export NPMRC_INSTALL_URL=$(echo "$NPMRC_URL/packages/npm/:_authToken=$OAUTH_TOKEN")
+          export NPMRC_PUBLISH_URL=$(echo "$NPMRC_URL/projects/$CI_PROJECT_ID/packages/npm/:_authToken=$OAUTH_TOKEN")
+          export NPM_SCOPE=$(echo "$CI_PROJECT_PATH" | sed 's/[/].*$//')
+          echo "@$NPM_SCOPE:registry=$NPM_REGISTRY_PATHS/npm/" >> .npmrc
+          echo "$NPMRC_INSTALL_URL" >> .npmrc
+          echo "$NPMRC_PUBLISH_URL" >> .npmrc
+      fi
+  # tags:
+  #   - npm 
+  artifacts:
+    paths:
+      - .npmrc
+    expire_in: 1 week
+
+build_package:
+  before_script:
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+  script:
+    - npm version minor --git-tag-version=false
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' >> .npmrc
+    - npm publish
+    - git status
+    - git add package.json
+    - git commit -m "[ci skip] updated $(npm run getName -s) version to $(npm run version -s)"
+    - git push -o ci-skip http://root:$PERSONAL_ACCESS_TOKEN@gitlab.com/lumedix/libs/solarium-api.git HEAD:feature-create-library
+  dependencies:
+    - build:create_npmrc

@@ -1,0 +1,12 @@
+@hostname = 77.153.145.142
+@port = 8080
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+### get device infos
+http://{{host}}/info
+### get patient measures
+POST http://{{host}}/measure
+{
+ "patient_id" : "aze",
+ "strip_type" : "covid"
+}

@@ -1,0 +1,2 @@
+{"acquisition_params":
+{"strip_type":"calibration","exposure":"60","gain_blue":"0","gain_green":"30","gain_master":"50","gain_red":"50","isValid":"true","strip_packaging":"strip","LEDs_params":{"visible":{"status":"disabled","intensity":20},"uv":{"status":"enabled","intensity":255}}},"device":{"name":"proto-lmx04","version":"0.26.0","temperature_sensors":[{"temperature":29.0,"humidity":44.3},{"temperature":"#err","humidity":"#err"}],"light_sensors":[{"uv":114,"visible":175},{"uv":194,"visible":48}],"battery":{"status":"charging","charge":1}}}

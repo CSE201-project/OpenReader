@@ -1,0 +1,22 @@
+horizontal_pitch: 0.75
+vertical_pitch: 0.75
+theoric_spots_diameter: 0.2
+number_lines: 9
+number_columns: 6
+
+N:Anti_Proteine_N
+G:Anti_hlgG
+I:Molecule_I
+M:Anti_hlgM
+K:KLH_colorant
+A:Anti_hlgA
+
+0 0 0 0 0 0
+N G G I G G
+G N I G - K
+- I N - - M
+I - K N M -
+M K - M N I
+- M M - I N
+K A - A K A
+A - A K A -

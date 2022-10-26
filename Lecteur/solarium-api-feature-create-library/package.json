@@ -1,0 +1,22 @@
+{
+  "name": "@lumedix/solarium-api",
+  "version": "1.2.0",
+  "description": "Solarium device API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/lumedix/libs/solarium-api.git"
+  },
+  "author": "ezonda_lumedix",
+  "license": "ISC",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "publishConfig": {
+    "@lumedix:registry": "https://gitlab.com/api/v4/projects/23491946/packages/npm/"
+  }
+}

@@ -1,0 +1,15 @@
+//
+// Created by Mario Valdivia <mario@lumedix.com> on 2021/04/28.
+// Copyright (c) 2021 LumediX. All rights reserved.
+//
+
+#ifndef SOLARIUM_CONFIGURE_H_IN
+#define SOLARIUM_CONFIGURE_H_IN
+
+#cmakedefine USE_DUMMY_PERIPHERALS
+#cmakedefine USE_UEYE_CAMERA
+#cmakedefine USE_UEYE_CAMERA_205
+#cmakedefine USE_V4L2_CAMERA
+#cmakedefine USE_HW_LMX03
+
+#endif //SOLARIUM_CONFIGURE_H_IN

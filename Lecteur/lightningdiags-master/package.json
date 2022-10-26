@@ -1,0 +1,56 @@
+{
+  "name": "DiagInLight",
+  "version": "1.0.0-rc1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.1",
+    "@react-navigation/stack": "^5.7.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "react": "16.13.1",
+    "react-native": "^0.65.1",
+    "react-native-barcode-mask": "^1.2.4",
+    "react-native-camera": "^4.1.1",
+    "react-native-chart-kit": "^6.8.1",
+    "react-native-countdown-circle-timer": "^2.5.4",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-pan-zoom": "^2.1.12",
+    "react-native-progress": "^4.1.2",
+    "react-native-reanimated": "^1.13.3",
+    "react-native-safe-area-context": "^3.1.1",
+    "react-native-screens": "^2.9.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-vector-icons": "^8.1.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.16",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.20.3",
+    "gradle": "^1.2.3",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "mocha": "^7.0.0",
+    "react-native-testing-library": "^6.0.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ]
+  }
+}

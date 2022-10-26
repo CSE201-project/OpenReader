@@ -1,0 +1,10 @@
+module.exports = {
+  root: true,
+  extends: '@react-native-community',
+  rules :{
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "tabWidth": 4
+    }]
+  }
+};
