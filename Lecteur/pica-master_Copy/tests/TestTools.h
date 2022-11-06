@@ -8,6 +8,6 @@
 
 #include <string>
 
-std::string getResourcePath(const std::string & relativePath);
+std::string getResourcePath(const std::string &relativePath);
 
-#endif //PICA_TESTTOOLS_H
+#endif // PICA_TESTTOOLS_H

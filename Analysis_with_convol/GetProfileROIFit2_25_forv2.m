@@ -1,111 +1,116 @@
-function Resu=GetProfileROIFit2_Color()
+function Resu = GetProfileROIFit2_Color()
 
-clear all; close all; clc;
+    clear all;
+close all;
+clc;
 
-%%%%%%%%%%%%%%%%
-% AJUSTER LA VALEUR DE SDist ET DES DELTA POUR CHAQUE LOT DE BANDELETTES
+% % % % % % % % % % % % % % % % %
+    AJUSTER LA VALEUR DE SDist ET DES DELTA POUR CHAQUE LOT DE BANDELETTES
 
+    % ----------Notation
+    : T = test,
+      C = control %
+          ----------Notation : _x : x est la position de la bande en partant du
+                                    haut(juste aprï¿½s la CAS) vers le bas %
+          Images 1 = images prises au gain le plus fort % Images 2 =
+                         images prises au gain le plus faible
 
-% ---------- Notation : T = test, C = control
-% ---------- Notation : _x : x est la position de la bande en partant du haut (juste après la CAS) vers le bas
-% Images 1 = images prises au gain le plus fort
-% Images 2 = images prises au gain le plus faible
-
-% Definition of the analysis parameters : Modifier les valeurs si besoin!!
-%----------------------------------------------------
-N2=130;%Convolution Gaussian variance 
-SDist=350;%Test-control distance
-delta2=1;%increment for the second ROI vertical position 
+                         % Definition of the analysis parameters
+    : Modifier les valeurs si besoin !! %
+      ----------------------------------------------------N2 = 130;
+% Convolution Gaussian variance SDist = 350;
+% Test - control distance delta2 = 1;%increment for the second ROI vertical position 
 delta3=1;%increment for the third ROI vertical position 
 fw=round(sqrt(N2))*5;
-bw=50;
-limLIN=75000;
-m=1;
-M=255;
-%----------------------------------------------------
+bw = 50;
+limLIN = 75000;
+m = 1;
+M = 255;
+% ----------------------------------------------------
 
+    % Affichage des diffï¿½rents menus
 
-% Affichage des différents menus
+          choice = menu('Choose a color', 'Red', 'Green', 'Blue', 'RGB');
 
-choice = menu('Choose a color','Red','Green','Blue', 'RGB');
+Col = 'NB';
+if choice
+  == 1 Col = 'R';
+end if choice == 2 Col = 'G';
+end if choice == 3 Col = 'B';
+end if choice == 4 Col = 'RGB';
+end Nc = choice;
 
-Col='NB';
-if choice==1
-    Col='R';
-end
-if choice==2
-    Col='G';
-end
-if choice==3
-    Col='B';
-end
-if choice==4
-    Col='RGB';
-end
-Nc=choice;
-
-choice2=menu('Do you want to exlude too large bands ?', 'Yes', 'No');
-if choice2==1
-    WTH=3; 
+% Default to yes(otherwise maybe implement gaussian) choice2 =
+    menu('Do you want to exlude too large bands ?', 'Yes', 'No');
+if choice2
+  == 1 WTH = 3;
 else
-    WTH=10000;
+  WTH = 10000;
 end
 
-choice3=menu('Nanoparticle type ?','Eu','Au');
+    choice3 = menu('Nanoparticle type ?', 'Eu', 'Au');
 
-choice4=menu('Number of gains ?','1','2');
+choice4 = menu('Number of gains ?', '1', '2');
 
-choice5=menu('Type of assay ?','Simplex','Multiplex');
+choice5 = menu('Type of assay ?', 'Simplex', 'Multiplex');
 
-if (choice4==1)
-    prompt = {'Gain'};
-    dlg_title = 'Gain des images';
-    num_lines = 1;
-    defaultans = {'100'}; 
-    answer = inputdlg(prompt,dlg_title,num_lines,defaultans);
-    answer1 = str2double(answer{1}); 
-else
-    prompt = {'Gain max','Gain min'};
-    dlg_title = 'Gain des images';
-    num_lines = 1;
-    defaultans = {'100','50'}; 
-    answer = inputdlg(prompt,dlg_title,num_lines,defaultans);
-    answer1 = str2double(answer{1}); 
-    answer2 = str2double(answer{2}); 
+if (choice4 == 1)
+  prompt = {'Gain'};
+dlg_title = 'Gain des images';
+num_lines = 1;
+defaultans = {'100'};
+answer = inputdlg(prompt, dlg_title, num_lines, defaultans);
+answer1 = str2double(answer{1});
+else prompt = {'Gain max', 'Gain min'};
+dlg_title = 'Gain des images';
+num_lines = 1;
+defaultans = {'100', '50'};
+answer = inputdlg(prompt, dlg_title, num_lines, defaultans);
+answer1 = str2double(answer{1});
+answer2 = str2double(answer{2});
 end
 
-%Image oppening
-%-------------------------------------------------------------------------
+    % Image oppening %
+    -------------------------------------------------------------------------
 
-% Image folder : gain 1
-[fn1 pn1]=uigetfile('*.png');
-pn1=pn1(1:length(pn1)-1);
+    % Image folder : gain 1 [fn1 pn1] = uigetfile('*.png');
+pn1 = pn1(1 : length(pn1) - 1);
 cd(pn1);
-a1= dir('*.png');
-N1=numel(a1);
+a1 = dir('*.png');
+N1 = numel(a1);
 warning off;
 pause on;
 
-pn=pn1(1:length(pn1)-2);
-cd (pn);
+pn = pn1(1 : length(pn1) - 2);
+cd(pn);
 
-% Image folder : gain 2
-if (choice4==2)
-    [fn2 pn2]=uigetfile('*.png');
-    pn2=pn2(1:length(pn2)-1);
-    cd(pn2);
-    a2= dir('*.png');
-    warning off;
-    pause on;
+% Image folder : gain 2 if (choice4 == 2)[fn2 pn2] = uigetfile('*.png');
+pn2 = pn2(1 : length(pn2) - 1);
+cd(pn2);
+a2 = dir('*.png');
+warning off;
+pause on;
 end
 
-% Creation of the .txt file
+    % Creation of the.txt file
 
-cd(pn);
-if (choice5==1)
-    Title=['Name',';','T1',';','C',';','BG_T1',';','BG_C',';', 'R²_T1',';', 'R²_C',';', 'Width_T1',';','Width_C' ,';','T/BG_1',';','Gain1',';','ROI1'];
+          cd(pn);
+if (choice5 == 1)
+  Title = [
+    'Name',    ';', 'T1',     ';', 'C',     ';', 'BG_T1',    ';',
+    'BG_C',    ';', 'Rï¿½_T1',  ';', 'Rï¿½_C',  ';', 'Width_T1', ';',
+    'Width_C', ';', 'T/BG_1', ';', 'Gain1', ';', 'ROI1'
+  ];
 else
-    Title=['Name',';','T1',';','T2',';','T3',';','C',';','BG_T1',';','BG_T2',';','BG_T3',';','BG_C',';', 'R²_T1',';', 'R²_T2',';','R²_T3',';','R²_C',';', 'Width_T1', ';','Width_T2', ';', 'Width_T3', ';','Width_C' ,';','T/BG_1',';','T/BG_2',';','T/BG_3',';','Gain1',';','Gain2',';','Gain3',';','ROI1',';','ROI2',';','ROI3'];
+  Title = [
+    'Name',    ';', 'T1',       ';', 'T2',       ';', 'T3',       ';',
+    'C',       ';', 'BG_T1',    ';', 'BG_T2',    ';', 'BG_T3',    ';',
+    'BG_C',    ';', 'Rï¿½_T1',    ';', 'Rï¿½_T2',    ';', 'Rï¿½_T3',    ';',
+    'Rï¿½_C',    ';', 'Width_T1', ';', 'Width_T2', ';', 'Width_T3', ';',
+    'Width_C', ';', 'T/BG_1',   ';', 'T/BG_2',   ';', 'T/BG_3',   ';',
+    'Gain1',   ';', 'Gain2',    ';', 'Gain3',    ';', 'ROI1',     ';',
+    'ROI2',    ';', 'ROI3'
+  ];
 end
 fs=find(pn=='\');
 Nomp=pn(fs(length(fs)-1)+1:fs(length(fs))-1);
@@ -427,7 +432,7 @@ MR_C=sum(r_C.^2);
 D_T1=sum((Profil_T1/M_T1-mean(Profil_T1/M_T1)).^2);
 D_C=sum((Profil_C/M_C-mean(Profil_C/M_C)).^2);
 
-R2_T1=1-MR_T1/D_T1; %R2 means R²
+R2_T1=1-MR_T1/D_T1; %R2 means Rï¿½
 R2_C=1-MR_C/D_C;
 
 
@@ -512,7 +517,7 @@ plot(Px,BGx_T1,'g');
 xlim([0 round(Px(length(Px))/10)*10]);
 xlabel('Position (pixel)');
 ylabel('Intensity (a.u.)');
-title(['\fontsize{16}Test Band Profile n°1 - ' Title_T1]);
+title(['\fontsize{16}Test Band Profile nï¿½1 - ' Title_T1]);
 
 subplot(2,3,3);
 if (choice5==2)
@@ -525,7 +530,7 @@ if (choice5==2)
     xlim([0 round(Px(length(Px))/10)*10]);
     xlabel('Position (pixel)');
     ylabel('Intensity (a.u.)');
-    title(['\fontsize{16}Test Band Profile n°2 - ' Title_T2]);
+    title(['\fontsize{16}Test Band Profile nï¿½2 - ' Title_T2]);
 else
     plot(Px,Profil_C+m_C,'+');
     hold on
@@ -564,7 +569,7 @@ if (choice5==2)
     xlim([0 round(Px(length(Px))/10)*10]);
     xlabel('Position (pixel)');
     ylabel('Intensity (a.u.)');
-    title(['\fontsize{16}Test Band Profile n°3 - ' Title_T3]);
+    title(['\fontsize{16}Test Band Profile nï¿½3 - ' Title_T3]);
     
     subplot(2,3,6);
     plot(Px,Profil_C+m_C,'+');
@@ -669,6 +674,7 @@ Res(i).R2_C=R2_C;
 Res(i).WidthT1=W_T1;
 Res(i).WidthC=W_C;
 
+%Alternatively Strip over Control
 Res(i).T_BG_T1=Si_1/Bg_T1;
 Res(i).N_gain1=Gain1;
 Res(i).ROI1=ROIvalue_1;
