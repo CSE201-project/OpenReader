@@ -1,0 +1,18 @@
+# How to use GitHub Project:
+Please follow the videos sent on the telegram group chat
+
+## Set Up the Kanban boards:
+In GitHub project -> Open Reader's Kanban board:
+- go to "Hardware team" and add "label:Hardware" to the filters
+- go to "Software team" team and add "label:Hardware" to the filters
+- go to "Software team" team and add "label:Organisation" to the filters
+- In Custom, feel free to add any filter you like. For example, you can display all the tasks that have been assigned to you using "assignee:" and your username as a filter
+
+## Create a Task:
+When you create a task, please convert it into an issue and add the proper labels between "Software", "Hardware" and "Organisation".
+
+## Close a task:
+Please close the tasks rather than simply moving them to the "Done" column. They will be moved automatically
+
+## Take responsibility for a task
+If a task is in the Todo column, and if something like [LOOKING FOR SOMEONE] is indicated in the description of the task, feel free to take responsibility for this task. Add your name to the list of assignees and move the task to the "In progress" column.
