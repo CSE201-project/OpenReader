@@ -1,0 +1,1299 @@
+strict digraph "" {
+	"pica-master/main_matlab.cpp"	[absolute_name="pica-master/main_matlab.cpp",
+		display_name="main_matlab.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=9,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=324,
+		metric_tag_argv=0.30884074926669564,
+		metric_tag_filesystem=0.20748326553754046,
+		metric_tag_focal=0.20708054186799643,
+		metric_tag_runnerfunction=0.27865607427710587,
+		metric_tag_std=0.4724338770888255,
+		metric_tag_wstring=0.2042738422819414];
+	iostream	[display_name=iostream,
+		"metric_fan-in-dependency-graph"=8,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_matlab.cpp" -> iostream;
+	string	[display_name=string,
+		"metric_fan-in-dependency-graph"=10,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_matlab.cpp" -> string;
+	"opencv2/opencv.hpp"	[display_name="opencv2/opencv.hpp",
+		"metric_fan-in-dependency-graph"=10,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_matlab.cpp" -> "opencv2/opencv.hpp";
+	filesystem	[display_name=filesystem,
+		"metric_fan-in-dependency-graph"=18,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_matlab.cpp" -> filesystem;
+	"OpenXLSX.hpp"	[display_name="OpenXLSX.hpp",
+		"metric_fan-in-dependency-graph"=6,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4];
+	"pica-master/main_matlab.cpp" -> "OpenXLSX.hpp";
+	fstream	[display_name=fstream,
+		"metric_fan-in-dependency-graph"=4,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_matlab.cpp" -> fstream;
+	regex	[display_name=regex,
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_matlab.cpp" -> regex;
+	"common/cropper/StripCropperRectangleDetection.h"	[display_name="common/cropper/StripCropperRectangleDetection.h",
+		"metric_fan-in-dependency-graph"=5,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=12];
+	"pica-master/main_matlab.cpp" -> "common/cropper/StripCropperRectangleDetection.h";
+	"common/fileProcessing/Parser.h"	[display_name="common/fileProcessing/Parser.h",
+		"metric_fan-in-dependency-graph"=5,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/main_matlab.cpp" -> "common/fileProcessing/Parser.h";
+	"pica-master/main_analyzeMultiplex.cpp"	[absolute_name="pica-master/main_analyzeMultiplex.cpp",
+		display_name="main_analyzeMultiplex.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=40,
+		metric_tag_argc=0.2102047778547569,
+		metric_tag_argv=0.7006825928491898,
+		metric_tag_filesystem=0.23898486009076336,
+		metric_tag_paramstr=0.2352881592232295,
+		metric_tag_path=0.22117468966983897,
+		metric_tag_std=0.3114387262391469];
+	"pica-master/main_analyzeMultiplex.cpp" -> iostream;
+	"pica-master/main_analyzeMultiplex.cpp" -> string;
+	"pica-master/main_analyzeMultiplex.cpp" -> "opencv2/opencv.hpp";
+	"pica-master/main_analyzeMultiplex.cpp" -> filesystem;
+	"multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h"	[display_name="multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3];
+	"pica-master/main_analyzeMultiplex.cpp" -> "multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h";
+	"pica-master/main_massTest.cpp"	[absolute_name="pica-master/main_massTest.cpp",
+		display_name="main_massTest.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=7,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=219,
+		metric_tag_croppingresults=0.25582671870196433,
+		metric_tag_csvfile=0.2842519096688493,
+		metric_tag_endl=0.23593885599181294,
+		metric_tag_imagesource=0.22740152773507943,
+		metric_tag_savesteps=0.25582671870196433,
+		metric_tag_std=0.3750800732539794];
+	"pica-master/main_massTest.cpp" -> iostream;
+	"pica-master/main_massTest.cpp" -> string;
+	"pica-master/main_massTest.cpp" -> filesystem;
+	"pica-master/main_massTest.cpp" -> "common/cropper/StripCropperRectangleDetection.h";
+	numeric	[display_name=numeric,
+		"metric_fan-in-dependency-graph"=10,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/main_massTest.cpp" -> numeric;
+	"GitVersion.h"	[display_name="GitVersion.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/main_massTest.cpp" -> "GitVersion.h";
+	"monoplex/algos/AlgoExponantialFit.h"	[display_name="monoplex/algos/AlgoExponantialFit.h",
+		"metric_fan-in-dependency-graph"=4,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/main_massTest.cpp" -> "monoplex/algos/AlgoExponantialFit.h";
+	"pica-master/main_compileData.cpp"	[absolute_name="pica-master/main_compileData.cpp",
+		display_name="main_compileData.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=10,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=451,
+		metric_tag_algodata=0.20429243695820135,
+		metric_tag_datarsquares=0.20429243695820135,
+		metric_tag_double=0.34625011795267857,
+		metric_tag_filenames=0.2298289915779765,
+		metric_tag_numline=0.28945977641520626,
+		metric_tag_std=0.3400268379533133,
+		metric_tag_workbook=0.2486449642227942];
+	"pica-master/main_compileData.cpp" -> iostream;
+	"pica-master/main_compileData.cpp" -> string;
+	"pica-master/main_compileData.cpp" -> "opencv2/opencv.hpp";
+	"pica-master/main_compileData.cpp" -> filesystem;
+	"pica-master/main_compileData.cpp" -> "OpenXLSX.hpp";
+	"pica-master/main_compileData.cpp" -> fstream;
+	"pica-master/main_compileData.cpp" -> regex;
+	"pica-master/main_compileData.cpp" -> "common/cropper/StripCropperRectangleDetection.h";
+	"pica-master/main_compileData.cpp" -> numeric;
+	"monoplex/algos/CurveFitter.h"	[display_name="monoplex/algos/CurveFitter.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/main_compileData.cpp" -> "monoplex/algos/CurveFitter.h";
+	"pica-master/main_analyzeUseTest.cpp"	[absolute_name="pica-master/main_analyzeUseTest.cpp",
+		display_name="main_analyzeUseTest.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=12,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=36,
+		metric_tag_argc=0.23095312052605177,
+		metric_tag_argv=0.6928593615781553,
+		metric_tag_paramstr=0.2585123666074922,
+		metric_tag_std=0.31773801832378495];
+	"pica-master/main_analyzeUseTest.cpp" -> "common/cropper/StripCropperRectangleDetection.h";
+	"monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h"	[display_name="monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=12];
+	"pica-master/main_analyzeUseTest.cpp" -> "monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h";
+	"pica-master/GitVersion.h"	[absolute_name="pica-master/GitVersion.h",
+		display_name="GitVersion.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=10,
+		metric_tag_branch=0.41103130520219217,
+		metric_tag_class=0.2155236815362922,
+		metric_tag_gitversion=0.41103130520219217,
+		metric_tag_public=0.2155236815362922,
+		metric_tag_revision=0.41103130520219217,
+		metric_tag_std=0.32515872223750963,
+		metric_tag_tag=0.41103130520219217];
+	"pica-master/GitVersion.h" -> string;
+	"pica-master/tests/TestTools.h"	[absolute_name="pica-master/tests/TestTools.h",
+		display_name="TestTools.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=5,
+		metric_tag_copyright=0.28230345562475173,
+		metric_tag_getresourcepath=0.40802464238565894,
+		metric_tag_mario=0.28803568923401146,
+		metric_tag_relativepath=0.597919037229105,
+		metric_tag_rights=0.28230345562475173,
+		metric_tag_std=0.31533460296292265,
+		metric_tag_valdivia=0.28803568923401146];
+	"pica-master/tests/TestTools.h" -> string;
+	"pica-master/tests/TestTools.cpp"	[absolute_name="pica-master/tests/TestTools.cpp",
+		display_name="TestTools.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=14,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=11,
+		metric_tag_cpp=0.20492330025464994,
+		metric_tag_currentbasepath=0.4098466005092999,
+		metric_tag_fs=0.6147699007639498,
+		metric_tag_namespace=0.20492330025464994,
+		metric_tag_provide=0.20492330025464994,
+		metric_tag_tells=0.20492330025464994];
+	"pica-master/tests/TestTools.cpp" -> filesystem;
+	"catch2/catch.hpp"	[display_name="catch2/catch.hpp",
+		"metric_fan-in-dependency-graph"=11,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2];
+	"pica-master/tests/TestTools.cpp" -> "catch2/catch.hpp";
+	"TestTools.h"	[display_name="TestTools.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=14];
+	"pica-master/tests/TestTools.cpp" -> "TestTools.h";
+	"pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp"	[absolute_name="pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp",
+		display_name="TestRemoveLinesOnProfile.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=42,
+		metric_tag_linesareas=0.23660564048387708,
+		metric_tag_masklength=0.30957633781062327,
+		metric_tag_profilewithoutlines=0.48999271818592954,
+		metric_tag_require=0.38208350945161285,
+		metric_tag_shift=0.5345375107482868];
+	"pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" -> "catch2/catch.hpp";
+	"common/imageProcessing/ImageAnalyzer.h"	[display_name="common/imageProcessing/ImageAnalyzer.h",
+		"metric_fan-in-dependency-graph"=9,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2];
+	"pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" -> "common/imageProcessing/ImageAnalyzer.h";
+	"tests/TestTools.h"	[display_name="tests/TestTools.h",
+		"metric_fan-in-dependency-graph"=10,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2];
+	"pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" -> "tests/TestTools.h";
+	"tests/common/imageProcessing/resources/Profiles.h"	[display_name="tests/common/imageProcessing/resources/Profiles.h",
+		"metric_fan-in-dependency-graph"=5,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2];
+	"pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" -> "tests/common/imageProcessing/resources/Profiles.h";
+	"pica-master/tests/common/imageProcessing/TestFindControlLine.cpp"	[absolute_name="pica-master/tests/common/imageProcessing/TestFindControlLine.cpp",
+		display_name="TestFindControlLine.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=75,
+		metric_tag_cl=0.32337138751542926,
+		metric_tag_findcontrolline=0.25639777678515047,
+		metric_tag_found=0.35542087516872856,
+		metric_tag_have=0.2829938082996374,
+		metric_tag_profile=0.3356761760387263,
+		metric_tag_result=0.3180090088787933,
+		metric_tag_right=0.23694725011248569];
+	"pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" -> "common/imageProcessing/ImageAnalyzer.h";
+	"pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" -> "tests/common/imageProcessing/resources/Profiles.h";
+	"pica-master/tests/common/imageProcessing/TestComputeProfile.cpp"	[absolute_name="pica-master/tests/common/imageProcessing/TestComputeProfile.cpp",
+		display_name="TestComputeProfile.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=17,
+		metric_tag_above=0.23865069847906842,
+		metric_tag_analyzed=0.23865069847906842,
+		metric_tag_auto=0.2795444765100786,
+		metric_tag_img=0.47730139695813684,
+		metric_tag_picture=0.23865069847906842,
+		metric_tag_profile=0.21353014804077466,
+		metric_tag_result=0.21353014804077466];
+	"pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" -> "common/imageProcessing/ImageAnalyzer.h";
+	"pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" -> "tests/TestTools.h";
+	cmath	[display_name=cmath,
+		"metric_fan-in-dependency-graph"=4,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2];
+	"pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" -> cmath;
+	"pica-master/tests/common/imageProcessing/resources/Profiles.h"	[absolute_name="pica-master/tests/common/imageProcessing/resources/Profiles.h",
+		display_name="Profiles.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=9,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=548,
+		metric_tag_timageprofile=0.9805673086257151];
+	"monoplex/algos/IImageProcessor.h"	[display_name="monoplex/algos/IImageProcessor.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=9];
+	"pica-master/tests/common/imageProcessing/resources/Profiles.h" -> "monoplex/algos/IImageProcessor.h";
+	"pica-master/tests/common/fileProcessing/TestParser.cpp"	[absolute_name="pica-master/tests/common/fileProcessing/TestParser.cpp",
+		display_name="TestParser.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=86,
+		metric_tag_comparevectors=0.3027237431514833,
+		metric_tag_expectedresult=0.2648832752575479,
+		metric_tag_filepathstr=0.2270428073636125,
+		metric_tag_parser=0.28791481668027713,
+		metric_tag_require=0.2349411918445896,
+		metric_tag_std=0.2995907148590227,
+		metric_tag_stringtoparse=0.37840467893935414];
+	"pica-master/tests/common/fileProcessing/TestParser.cpp" -> filesystem;
+	"pica-master/tests/common/fileProcessing/TestParser.cpp" -> "common/fileProcessing/Parser.h";
+	"pica-master/tests/common/fileProcessing/TestParser.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/common/fileProcessing/TestParser.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp"	[absolute_name="pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp",
+		display_name="TestCropperRectangleDetection.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=153,
+		metric_tag_cropparams=0.7519523606132651,
+		metric_tag_cropperrectangledetectionunittest=0.33723510122107253,
+		metric_tag_isvalid=0.2852495198778048,
+		metric_tag_serum=0.2196931914935629];
+	"pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp" -> "common/cropper/StripCropperRectangleDetection.h";
+	"pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp"	[absolute_name="pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp",
+		display_name="TestTestMinusProxNoise.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=120,
+		metric_tag_cv=0.20575743414510966,
+		metric_tag_processorconfig=0.5186092174582563,
+		metric_tag_profiledataraw=0.20211612094443077,
+		metric_tag_proxnoisedefaultsizes=0.22738063606248463,
+		metric_tag_require=0.31520973247562156,
+		metric_tag_resultconvol=0.30317418141664615,
+		metric_tag_resultraw=0.30317418141664615];
+	"pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" -> cmath;
+	"monoplex/algos/AlgoTestMinusProxNoise.h"	[display_name="monoplex/algos/AlgoTestMinusProxNoise.h",
+		"metric_fan-in-dependency-graph"=4,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" -> "monoplex/algos/AlgoTestMinusProxNoise.h";
+	"pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp"	[absolute_name="pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp",
+		display_name="TestAlgoExponantialFit.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=133,
+		metric_tag_processorconfig=0.5104747399206938,
+		metric_tag_proxnoisedefaultsizes=0.20215469848529122,
+		metric_tag_require=0.3678148786560715,
+		metric_tag_resultconvol=0.2695395979803883,
+		metric_tag_resultraw=0.2695395979803883];
+	"pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" -> "monoplex/algos/AlgoExponantialFit.h";
+	"pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" -> "tests/common/imageProcessing/resources/Profiles.h";
+	"pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp"	[absolute_name="pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp",
+		display_name="TestAlgoPoly2.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=131,
+		metric_tag_processorconfig=0.5201743037675521,
+		metric_tag_proxnoisedefaultsizes=0.20599585310384316,
+		metric_tag_require=0.37480375316904596,
+		metric_tag_resultconvol=0.2746611374717909,
+		metric_tag_resultraw=0.2746611374717909];
+	"pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" -> "tests/common/imageProcessing/resources/Profiles.h";
+	"monoplex/algos/AlgoPoly2.h"	[display_name="monoplex/algos/AlgoPoly2.h",
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" -> "monoplex/algos/AlgoPoly2.h";
+	"pica-master/tests/monoplex/algos/TestProxNoise.cpp"	[absolute_name="pica-master/tests/monoplex/algos/TestProxNoise.cpp",
+		display_name="TestProxNoise.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=118,
+		metric_tag_processorconfig=0.47702371826886514,
+		metric_tag_proxnoisedefaultsizes=0.20914776063654641,
+		metric_tag_require=0.398659445576124,
+		metric_tag_resultconvol=0.27886368084872853,
+		metric_tag_resultraw=0.27886368084872853];
+	"pica-master/tests/monoplex/algos/TestProxNoise.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/monoplex/algos/TestProxNoise.cpp" -> "tests/TestTools.h";
+	"pica-master/tests/monoplex/algos/TestProxNoise.cpp" -> "tests/common/imageProcessing/resources/Profiles.h";
+	"pica-master/tests/monoplex/algos/TestProxNoise.cpp" -> cmath;
+	"monoplex/algos/AlgoProxNoise.h"	[display_name="monoplex/algos/AlgoProxNoise.h",
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/tests/monoplex/algos/TestProxNoise.cpp" -> "monoplex/algos/AlgoProxNoise.h";
+	"pica-master/tests/multiplex/pattern/TestPatternManager.cpp"	[absolute_name="pica-master/tests/multiplex/pattern/TestPatternManager.cpp",
+		display_name="TestPatternManager.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=102,
+		metric_tag_checkalllandmarks=0.21197153356266268,
+		metric_tag_checkingresult=0.42394306712532537,
+		metric_tag_gridslocationsfilepath=0.23459154564634202,
+		metric_tag_landmarks=0.3585912495916264,
+		metric_tag_patternmanager=0.256290309584353,
+		metric_tag_referencenumberofpixels=0.21776067675350183,
+		metric_tag_require=0.23689326667277782];
+	"pica-master/tests/multiplex/pattern/TestPatternManager.cpp" -> filesystem;
+	"pica-master/tests/multiplex/pattern/TestPatternManager.cpp" -> "catch2/catch.hpp";
+	"pica-master/tests/multiplex/pattern/TestPatternManager.cpp" -> "tests/TestTools.h";
+	"tests/multiplex/pattern/resources/DataToTest.h"	[display_name="tests/multiplex/pattern/resources/DataToTest.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=2];
+	"pica-master/tests/multiplex/pattern/TestPatternManager.cpp" -> "tests/multiplex/pattern/resources/DataToTest.h";
+	"pica-master/tests/multiplex/pattern/resources/DataToTest.h"	[absolute_name="pica-master/tests/multiplex/pattern/resources/DataToTest.h",
+		display_name="DataToTest.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=40,
+		metric_tag_cv=0.4821012441609376,
+		metric_tag_point=0.7385541369599414];
+	"multiplex/pattern/PatternManager.h"	[display_name="multiplex/pattern/PatternManager.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5];
+	"pica-master/tests/multiplex/pattern/resources/DataToTest.h" -> "multiplex/pattern/PatternManager.h";
+	"pica-master/common/imageProcessing/ImagePreProcessing.cpp"	[absolute_name="pica-master/common/imageProcessing/ImagePreProcessing.cpp",
+		display_name="ImagePreProcessing.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=8,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=90,
+		metric_tag_cv=0.5357019018362702,
+		metric_tag_cx=0.41306140978603284,
+		metric_tag_cy=0.41306140978603284,
+		metric_tag_mat=0.28275020485623614];
+	"ImagePreProcessing.h"	[display_name="ImagePreProcessing.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=8];
+	"pica-master/common/imageProcessing/ImagePreProcessing.cpp" -> "ImagePreProcessing.h";
+	"ImageAnalyzer.h"	[display_name="ImageAnalyzer.h",
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=8];
+	"pica-master/common/imageProcessing/ImagePreProcessing.cpp" -> "ImageAnalyzer.h";
+	"pica-master/common/imageProcessing/ImagePreProcessing.h"	[absolute_name="pica-master/common/imageProcessing/ImagePreProcessing.h",
+		display_name="ImagePreProcessing.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=8,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=14,
+		metric_tag_cv=0.5564970301300801,
+		metric_tag_image=0.3083960412084166,
+		metric_tag_mat=0.2746530095821895,
+		metric_tag_widthgaussiantoconvol=0.33183972119169713];
+	"pica-master/common/imageProcessing/ImagePreProcessing.h" -> "opencv2/opencv.hpp";
+	"pica-master/common/imageProcessing/ImagePreProcessing.h" -> "ImageAnalyzer.h";
+	"pica-master/common/imageProcessing/ImageAnalyzer.h"	[absolute_name="pica-master/common/imageProcessing/ImageAnalyzer.h",
+		display_name="ImageAnalyzer.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=75,
+		metric_tag_cv=0.3310143516755873,
+		metric_tag_double=0.622928773306277,
+		metric_tag_std=0.26943179632156283];
+	"pica-master/common/imageProcessing/ImageAnalyzer.h" -> "opencv2/opencv.hpp";
+	"pica-master/common/imageProcessing/ImageAnalyzer.h" -> filesystem;
+	"pica-master/common/imageProcessing/ImageAnalyzer.h" -> fstream;
+	"pica-master/common/imageProcessing/ImageAnalyzer.cpp"	[absolute_name="pica-master/common/imageProcessing/ImageAnalyzer.cpp",
+		display_name="ImageAnalyzer.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=8,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=431,
+		metric_tag_cv=0.4114352509352106,
+		metric_tag_double=0.34174725743525597,
+		metric_tag_nb=0.207269358727143,
+		metric_tag_std=0.20576377052980865];
+	"pica-master/common/imageProcessing/ImageAnalyzer.cpp" -> filesystem;
+	"pica-master/common/imageProcessing/ImageAnalyzer.cpp" -> numeric;
+	"pica-master/common/imageProcessing/ImageAnalyzer.cpp" -> "ImageAnalyzer.h";
+	"opencv2/plot.hpp"	[display_name="opencv2/plot.hpp",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=8];
+	"pica-master/common/imageProcessing/ImageAnalyzer.cpp" -> "opencv2/plot.hpp";
+	"pica-master/common/fileProcessing/Parser.h"	[absolute_name="pica-master/common/fileProcessing/Parser.h",
+		display_name="Parser.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=19,
+		metric_tag_column=0.20453468103405778,
+		metric_tag_filesystem=0.2414241881250567,
+		metric_tag_informations=0.20453468103405778,
+		metric_tag_spotstestinformations=0.22480620779107416,
+		metric_tag_std=0.6472133357878954,
+		metric_tag_vector=0.21009945553753415];
+	"pica-master/common/fileProcessing/Parser.h" -> "opencv2/opencv.hpp";
+	"pica-master/common/fileProcessing/Parser.h" -> filesystem;
+	"pica-master/common/fileProcessing/Parser.cpp"	[absolute_name="pica-master/common/fileProcessing/Parser.cpp",
+		display_name="Parser.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=10,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=123,
+		metric_tag_parser=0.2721271859641195,
+		metric_tag_std=0.6135194942394363];
+	"pica-master/common/fileProcessing/Parser.cpp" -> iostream;
+	"pica-master/common/fileProcessing/Parser.cpp" -> fstream;
+	"Poco/JSON/JSON.h"	[display_name="Poco/JSON/JSON.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=10];
+	"pica-master/common/fileProcessing/Parser.cpp" -> "Poco/JSON/JSON.h";
+	"Poco/JSON/Parser.h"	[display_name="Poco/JSON/Parser.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=10];
+	"pica-master/common/fileProcessing/Parser.cpp" -> "Poco/JSON/Parser.h";
+	"Parser.h"	[display_name="Parser.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=10];
+	"pica-master/common/fileProcessing/Parser.cpp" -> "Parser.h";
+	"pica-master/common/cropper/CassetteType.cpp"	[absolute_name="pica-master/common/cropper/CassetteType.cpp",
+		display_name="CassetteType.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=13,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=47,
+		metric_tag_beg=0.36246765622883714,
+		metric_tag_cassettemodel=0.28860460819288275,
+		metric_tag_cassettetype=0.23088368655430622,
+		metric_tag_datafromname=0.21748059373730227,
+		metric_tag_stripmatrix=0.6131848347703867];
+	"CassetteType.h"	[display_name="CassetteType.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=13];
+	"pica-master/common/cropper/CassetteType.cpp" -> "CassetteType.h";
+	"pica-master/common/cropper/CropperStructsAndData.h"	[absolute_name="pica-master/common/cropper/CropperStructsAndData.h",
+		display_name="CropperStructsAndData.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=13,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=33,
+		metric_tag_croproimm=0.3083646747376233,
+		metric_tag_devicefocal=0.2902728870210978,
+		metric_tag_devicetype=0.33168904577140224,
+		metric_tag_enum=0.42027741516172107,
+		metric_tag_imagedepth=0.36456290037821387,
+		metric_tag_lightningcondition=0.33168904577140224,
+		metric_tag_stripmatrix=0.2055764498250822];
+	"pica-master/common/cropper/CropperStructsAndData.h" -> "CassetteType.h";
+	"pica-master/common/cropper/CassetteType.h"	[absolute_name="pica-master/common/cropper/CassetteType.h",
+		display_name="CassetteType.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=7,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=25,
+		metric_tag_cassettedata=0.22786277569994656,
+		metric_tag_cassettedatatocrop=0.2420647392686696,
+		metric_tag_cassettemodel=0.3417941635499198,
+		metric_tag_colorchannellab=0.22786277569994656,
+		metric_tag_name=0.24349902551207583,
+		metric_tag_stripmatrix=0.4841294785373392];
+	"pica-master/common/cropper/CassetteType.h" -> string;
+	"pica-master/common/cropper/CassetteType.h" -> "common/imageProcessing/ImageAnalyzer.h";
+	map	[display_name=map,
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=7];
+	"pica-master/common/cropper/CassetteType.h" -> map;
+	"pica-master/common/cropper/StripCropperRectangleDetection.h"	[absolute_name="pica-master/common/cropper/StripCropperRectangleDetection.h",
+		display_name="StripCropperRectangleDetection.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=11,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=77,
+		metric_tag_cv=0.6548325797168472,
+		metric_tag_intermediatesteps=0.2572975726107917,
+		metric_tag_mat=0.30163974609714816,
+		metric_tag_std=0.21707890904194885];
+	"opencv2/imgcodecs.hpp"	[display_name="opencv2/imgcodecs.hpp",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=11];
+	"pica-master/common/cropper/StripCropperRectangleDetection.h" -> "opencv2/imgcodecs.hpp";
+	"opencv2/imgproc.hpp"	[display_name="opencv2/imgproc.hpp",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=11];
+	"pica-master/common/cropper/StripCropperRectangleDetection.h" -> "opencv2/imgproc.hpp";
+	"CropperStructsAndData.h"	[display_name="CropperStructsAndData.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=11];
+	"pica-master/common/cropper/StripCropperRectangleDetection.h" -> "CropperStructsAndData.h";
+	"pica-master/common/cropper/StripCropperRectangleDetection.cpp"	[absolute_name="pica-master/common/cropper/StripCropperRectangleDetection.cpp",
+		display_name="StripCropperRectangleDetection.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=3,
+		"metric_sloc-in-file"=417,
+		metric_tag_cv=0.5067861264849911,
+		metric_tag_framecenter=0.22489264835079428,
+		metric_tag_middle=0.2471818626564126];
+	"pica-master/common/cropper/StripCropperRectangleDetection.cpp" -> "opencv2/opencv.hpp";
+	"pica-master/common/cropper/StripCropperRectangleDetection.cpp" -> numeric;
+	"StripCropperRectangleDetection.h"	[display_name="StripCropperRectangleDetection.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/common/cropper/StripCropperRectangleDetection.cpp" -> "StripCropperRectangleDetection.h";
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h",
+		display_name="ConcentrationPredictor.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=23,
+		metric_tag_allimagesresults=0.3045556870461564,
+		metric_tag_coefficients=0.2374845613233933,
+		metric_tag_meansforlinearregression=0.21569178423624863,
+		metric_tag_results=0.3911828485678986,
+		metric_tag_std=0.48942860847411845,
+		metric_tag_vector=0.3404552535758944];
+	"AnalyzeUseTestStructs.h"	[display_name="AnalyzeUseTestStructs.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4];
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h" -> "AnalyzeUseTestStructs.h";
+	"ExcelWriter.h"	[display_name="ExcelWriter.h",
+		"metric_fan-in-dependency-graph"=8,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4];
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h" -> "ExcelWriter.h";
+	"pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp"	[absolute_name="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp",
+		display_name="RegulatoryDataManager.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=82,
+		metric_tag_determineonealgoregulatorydata=0.3545914955331711,
+		metric_tag_firstalgonumline=0.38973522251957016,
+		metric_tag_lob=0.21651956806642786,
+		metric_tag_regulatorydatabyalgo=0.2563995967681152,
+		metric_tag_spacebetweentldata=0.38973522251957016,
+		metric_tag_workbook=0.2378496887193119,
+		metric_tag_writeonealgoregulatorydata=0.2930281105921317];
+	"pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp" -> numeric;
+	"RegulatoryDataManager.h"	[display_name="RegulatoryDataManager.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5];
+	"pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp" -> "RegulatoryDataManager.h";
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h",
+		display_name="ROCCurveManager.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=7,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=35,
+		metric_tag_double=0.40476581759396074,
+		metric_tag_map=0.2760641164745659,
+		metric_tag_roccurveparams=0.4614245480092196,
+		metric_tag_std=0.4883179527331479,
+		metric_tag_vector=0.3623281724468942];
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h" -> map;
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h" -> "ExcelWriter.h";
+	vector	[display_name=vector,
+		"metric_fan-in-dependency-graph"=7,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6];
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h" -> vector;
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ExcelWriter.h",
+		display_name="ExcelWriter.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=63,
+		metric_tag_openxlsx=0.5616390937991963,
+		metric_tag_std=0.35507401810352174,
+		metric_tag_workbook=0.5320791414939754];
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" -> "OpenXLSX.hpp";
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" -> "AnalyzeUseTestStructs.h";
+	climits	[display_name=climits,
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4];
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" -> climits;
+	"ROCCurveManager.h"	[display_name="ROCCurveManager.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=9];
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" -> "ROCCurveManager.h";
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp",
+		display_name="ProxNoiseGrids.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=256,
+		metric_tag_double=0.3258613558252096,
+		metric_tag_proxnoiseparams=0.350076139278463,
+		metric_tag_std=0.3769977143845583];
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp" -> "opencv2/opencv.hpp";
+	"ProxNoiseGrids.h"	[display_name="ProxNoiseGrids.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5];
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp" -> "ProxNoiseGrids.h";
+	"pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.h",
+		display_name="RegulatoryDataManager.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=14,
+		metric_tag_double=0.27616049180162383,
+		metric_tag_openxlsx=0.20339799600024888,
+		metric_tag_regulatorydatabyalgo=0.34455302351775585,
+		metric_tag_resultsbyalgo=0.440784685815591,
+		metric_tag_std=0.2931859008497388,
+		metric_tag_vector=0.2175416878439725,
+		metric_tag_workbook=0.20339799600024888];
+	"pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.h" -> "ExcelWriter.h";
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp",
+		display_name="ROCCurveManager.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=9,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=94,
+		metric_tag_determineonealgoroccurvevalues=0.3426003249347887,
+		metric_tag_max=0.33471609018827797,
+		metric_tag_min=0.30453362216425667,
+		metric_tag_numfirstalgofirstcol=0.37655560146181266,
+		metric_tag_roccurvevalues=0.30453362216425667,
+		metric_tag_spacebetweencols=0.33471609018827797,
+		metric_tag_writeroccurvevalues=0.28311882030035923];
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp" -> "monoplex/algos/IImageProcessor.h";
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp" -> "ROCCurveManager.h";
+	algorithm	[display_name=algorithm,
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=9];
+	"pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp" -> algorithm;
+	"pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h",
+		display_name="AnalyzeUseTestStructs.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=168,
+		metric_tag_double=0.6672796188012312,
+		metric_tag_std=0.49952529036385407,
+		metric_tag_tuple=0.20004725174295862,
+		metric_tag_vector=0.28159311636187656];
+	"pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" -> string;
+	"pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" -> filesystem;
+	"pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" -> "common/imageProcessing/ImageAnalyzer.h";
+	"pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" -> vector;
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h",
+		display_name="ProxNoiseGrids.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=41,
+		metric_tag_double=0.32478925407041037,
+		metric_tag_map=0.3127304015182169,
+		metric_tag_proxnoiseparams=0.40658974155590305,
+		metric_tag_std=0.5577851634798312,
+		metric_tag_vector=0.33862279873821516];
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" -> numeric;
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" -> "monoplex/algos/AlgoTestMinusProxNoise.h";
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" -> "monoplex/algos/AlgoProxNoise.h";
+	"pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" -> "ExcelWriter.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp"	[absolute_name="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp",
+		display_name="MonoplexUseTestAnalyzer.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=388,
+		metric_tag_controlline=0.32046415966371,
+		metric_tag_indexofprofile=0.2712893553511004,
+		metric_tag_numtl=0.25065734312565185,
+		metric_tag_std=0.36898140627633985,
+		metric_tag_testlinedistance=0.3138704933983184];
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" -> "RegulatoryDataManager.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" -> "ProxNoiseGrids.h";
+	"MonoplexUseTestAnalyzer.h"	[display_name="MonoplexUseTestAnalyzer.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5];
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" -> "MonoplexUseTestAnalyzer.h";
+	"ConcentrationPredictor.h"	[display_name="ConcentrationPredictor.h",
+		"metric_fan-in-dependency-graph"=2,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" -> "ConcentrationPredictor.h";
+	"common/imageProcessing/ImagePreProcessing.h"	[display_name="common/imageProcessing/ImagePreProcessing.h",
+		"metric_fan-in-dependency-graph"=4,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5];
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" -> "common/imageProcessing/ImagePreProcessing.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h"	[absolute_name="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h",
+		display_name="MonoplexUseTestAnalyzer.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=8,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=62,
+		metric_tag_allprofiles=0.21924459284441333,
+		metric_tag_filesystem=0.24926235683749365,
+		metric_tag_processorconfig=0.33871112390203173,
+		metric_tag_std=0.5104504227451854,
+		metric_tag_vector=0.2324149539341366];
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> iostream;
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> string;
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> filesystem;
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> "monoplex/algos/AlgoExponantialFit.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> "monoplex/algos/AlgoTestMinusProxNoise.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> "monoplex/algos/AlgoPoly2.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> "ExcelWriter.h";
+	"pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" -> vector;
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp",
+		display_name="ConcentrationPredictor.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=7,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=171,
+		metric_tag_calibrationcurvesdata=0.27834665870824477,
+		metric_tag_concentrationpredictor=0.20701865912334563,
+		metric_tag_initialevalues=0.21415360727782012,
+		metric_tag_numtl=0.2646789495421125,
+		metric_tag_std=0.4257094191181394,
+		metric_tag_sum=0.25393550775091667];
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> numeric;
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> "monoplex/algos/AlgoExponantialFit.h";
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> "monoplex/algos/CurveFitter.h";
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> "monoplex/algos/AlgoTestMinusProxNoise.h";
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> "monoplex/algos/AlgoPoly2.h";
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> "monoplex/algos/AlgoProxNoise.h";
+	"pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" -> "ConcentrationPredictor.h";
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp"	[absolute_name="pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp",
+		display_name="ExcelWriter.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=530,
+		metric_tag_currentworksheet=0.2653891593334665,
+		metric_tag_insertresult=0.3837975489931872,
+		metric_tag_linenumber=0.22410640121492728,
+		metric_tag_openxlsx=0.42076355289622847,
+		metric_tag_std=0.28148061630959487,
+		metric_tag_stod=0.24588699435709963,
+		metric_tag_xlcellreference=0.530778318666933];
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" -> filesystem;
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" -> "OpenXLSX.hpp";
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" -> cmath;
+	"pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" -> "ExcelWriter.h";
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp"	[absolute_name="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp",
+		display_name="AlgoTestMinusProxNoise.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=7,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=75,
+		metric_tag_algotestminusproxnoise=0.26105000141686663,
+		metric_tag_double=0.2780402506330203,
+		metric_tag_leftlimittestline=0.2743656823248437,
+		metric_tag_noiseaftertestline=0.219492545859875,
+		metric_tag_rightlimitnoiseafter=0.219492545859875,
+		metric_tag_rightlimittestline=0.2743656823248437,
+		metric_tag_testlinelength=0.31903169225588235];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> "common/fileProcessing/Parser.h";
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> numeric;
+	"AlgoTestMinusProxNoise.h"	[display_name="AlgoTestMinusProxNoise.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> "AlgoTestMinusProxNoise.h";
+	"AlgoProxNoise.h"	[display_name="AlgoProxNoise.h",
+		"metric_fan-in-dependency-graph"=5,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> "AlgoProxNoise.h";
+	"CurveFitter.h"	[display_name="CurveFitter.h",
+		"metric_fan-in-dependency-graph"=6,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> "CurveFitter.h";
+	tuple	[display_name=tuple,
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> tuple;
+	limits	[display_name=limits,
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" -> limits;
+	"pica-master/monoplex/algos/AlgoExponantialFit.h"	[absolute_name="pica-master/monoplex/algos/AlgoExponantialFit.h",
+		display_name="AlgoExponantialFit.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=13,
+		metric_tag_algoexponantialfit=0.22860818059369925,
+		metric_tag_double=0.24611381045142539,
+		metric_tag_profile=0.2706783979958951,
+		metric_tag_public=0.2886462082250166,
+		metric_tag_std=0.29031869901295615,
+		metric_tag_testareas=0.40265750447343207,
+		metric_tag_tuple=0.22381070298321976];
+	"pica-master/monoplex/algos/AlgoExponantialFit.h" -> "AlgoProxNoise.h";
+	"pica-master/monoplex/algos/AlgoExponantialFit.cpp"	[absolute_name="pica-master/monoplex/algos/AlgoExponantialFit.cpp",
+		display_name="AlgoExponantialFit.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=26,
+		metric_tag_algoexponantialfit=0.29089421378167524,
+		metric_tag_curvefitter=0.35502095698321273,
+		metric_tag_exponantialfit=0.23348975026669708,
+		metric_tag_profile=0.28702231757489083,
+		metric_tag_profilefitted=0.21707075290385328,
+		metric_tag_testareas=0.34157639761009406,
+		metric_tag_timageprofile=0.23954992634481045];
+	"pica-master/monoplex/algos/AlgoExponantialFit.cpp" -> "CurveFitter.h";
+	"AlgoExponantialFit.h"	[display_name="AlgoExponantialFit.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoExponantialFit.cpp" -> "AlgoExponantialFit.h";
+	"pica-master/monoplex/algos/CurveFitter.h"	[absolute_name="pica-master/monoplex/algos/CurveFitter.h",
+		display_name="CurveFitter.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=19,
+		metric_tag_beta=0.2014465973019906,
+		metric_tag_double=0.6174845098155259,
+		metric_tag_initialvalues=0.23018901392652874,
+		metric_tag_linearregressioncoefficients=0.25256076783873976,
+		metric_tag_residualtype=0.34528352088979314,
+		metric_tag_std=0.24279729124977026,
+		metric_tag_vector=0.20267294210943632];
+	"pica-master/monoplex/algos/CurveFitter.h" -> vector;
+	functional	[display_name=functional,
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6];
+	"pica-master/monoplex/algos/CurveFitter.h" -> functional;
+	"IImageProcessor.h"	[display_name="IImageProcessor.h",
+		"metric_fan-in-dependency-graph"=4,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6];
+	"pica-master/monoplex/algos/CurveFitter.h" -> "IImageProcessor.h";
+	"pica-master/monoplex/algos/CurveFitter.cpp"	[absolute_name="pica-master/monoplex/algos/CurveFitter.cpp",
+		display_name="CurveFitter.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=180,
+		metric_tag_beta=0.20626229126289838,
+		metric_tag_ceres=0.5181026716835097,
+		metric_tag_double=0.44257207648971125,
+		metric_tag_inputdata=0.25926099263588936,
+		metric_tag_residual=0.23314620225757932];
+	"pica-master/monoplex/algos/CurveFitter.cpp" -> "CurveFitter.h";
+	"ceres/ceres.h"	[display_name="ceres/ceres.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/CurveFitter.cpp" -> "ceres/ceres.h";
+	"pica-master/monoplex/algos/AlgoPoly2.h"	[absolute_name="pica-master/monoplex/algos/AlgoPoly2.h",
+		display_name="AlgoPoly2.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=1,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=13,
+		metric_tag_double=0.2528085563511034,
+		metric_tag_profile=0.27804134561671573,
+		metric_tag_public=0.2964979131554614,
+		metric_tag_std=0.2982158987525881,
+		metric_tag_testareas=0.4136105252409526,
+		metric_tag_transformprofileforprocessing=0.2241734695561687,
+		metric_tag_tuple=0.22989876355711705];
+	"pica-master/monoplex/algos/AlgoPoly2.h" -> "AlgoProxNoise.h";
+	"pica-master/monoplex/algos/AlgoPoly2.cpp"	[absolute_name="pica-master/monoplex/algos/AlgoPoly2.cpp",
+		display_name="AlgoPoly2.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=25,
+		metric_tag_beta=0.22685067676391804,
+		metric_tag_curvefitter=0.39414035683365906,
+		metric_tag_profile=0.3186490161862206,
+		metric_tag_profilefitted=0.24098955941837913,
+		metric_tag_profilewithoutlines=0.22685067676391804,
+		metric_tag_testareas=0.37921435507359147,
+		metric_tag_timageprofile=0.26594569022437975];
+	"pica-master/monoplex/algos/AlgoPoly2.cpp" -> "CurveFitter.h";
+	"AlgoPoly2.h"	[display_name="AlgoPoly2.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/monoplex/algos/AlgoPoly2.cpp" -> "AlgoPoly2.h";
+	"pica-master/monoplex/algos/AlgoProxNoise.h"	[absolute_name="pica-master/monoplex/algos/AlgoProxNoise.h",
+		display_name="AlgoProxNoise.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=19,
+		metric_tag_constexpr=0.3607011990675883,
+		metric_tag_double=0.4625653004507498,
+		metric_tag_public=0.2034389899534809];
+	"pica-master/monoplex/algos/AlgoProxNoise.h" -> "IImageProcessor.h";
+	cstdint	[display_name=cstdint,
+		"metric_fan-in-dependency-graph"=3,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6];
+	"pica-master/monoplex/algos/AlgoProxNoise.h" -> cstdint;
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.h"	[absolute_name="pica-master/monoplex/algos/AlgoTestMinusProxNoise.h",
+		display_name="AlgoTestMinusProxNoise.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=19,
+		metric_tag_coefficients=0.241716903762215,
+		metric_tag_double=0.5278760772736696,
+		metric_tag_std=0.23350827364135462];
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.h" -> "IImageProcessor.h";
+	"pica-master/monoplex/algos/AlgoTestMinusProxNoise.h" -> cstdint;
+	"pica-master/monoplex/algos/IImageProcessor.h"	[absolute_name="pica-master/monoplex/algos/IImageProcessor.h",
+		display_name="IImageProcessor.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=4,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=6,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=58,
+		metric_tag_double=0.5906025533175774,
+		metric_tag_processorconfig=0.3707914651345027,
+		metric_tag_std=0.21771300211473982];
+	"pica-master/monoplex/algos/IImageProcessor.h" -> "opencv2/opencv.hpp";
+	"pica-master/monoplex/algos/IImageProcessor.h" -> "common/imageProcessing/ImageAnalyzer.h";
+	"pica-master/monoplex/algos/IImageProcessor.h" -> vector;
+	"pica-master/monoplex/algos/IImageProcessor.h" -> cstdint;
+	"pica-master/monoplex/algos/IImageProcessor.cpp"	[absolute_name="pica-master/monoplex/algos/IImageProcessor.cpp",
+		display_name="IImageProcessor.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=7,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=125,
+		metric_tag_controlline=0.22137412540368623,
+		metric_tag_convertmillimeterstopixels=0.2341395856464716,
+		metric_tag_double=0.24172118862950834,
+		metric_tag_iimageprocessor=0.22505904158289214,
+		metric_tag_imageanalyzer=0.30443955984174265,
+		metric_tag_testline=0.20031204972248895,
+		metric_tag_values=0.30827757502647535];
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> "common/fileProcessing/Parser.h";
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> "common/imageProcessing/ImagePreProcessing.h";
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> "AlgoProxNoise.h";
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> "CurveFitter.h";
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> tuple;
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> limits;
+	"pica-master/monoplex/algos/IImageProcessor.cpp" -> "IImageProcessor.h";
+	"pica-master/monoplex/algos/AlgoProxNoise.cpp"	[absolute_name="pica-master/monoplex/algos/AlgoProxNoise.cpp",
+		display_name="AlgoProxNoise.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=67,
+		metric_tag_controllinedifference=0.29011386450197346,
+		metric_tag_double=0.2360192155109141,
+		metric_tag_leftlimittestline=0.2639533281688363,
+		metric_tag_noisebeforecontrolline=0.2320910916015788,
+		metric_tag_rightlimitnoiseafter=0.21116266253506905,
+		metric_tag_rightlimittestline=0.2639533281688363,
+		metric_tag_testlinelength=0.30692423428733956];
+	"pica-master/monoplex/algos/AlgoProxNoise.cpp" -> numeric;
+	"pica-master/monoplex/algos/AlgoProxNoise.cpp" -> "AlgoProxNoise.h";
+	"pica-master/monoplex/algos/AlgoProxNoise.cpp" -> "CurveFitter.h";
+	"pica-master/monoplex/algos/AlgoProxNoise.cpp" -> tuple;
+	"pica-master/monoplex/algos/AlgoProxNoise.cpp" -> limits;
+	"pica-master/multiplex/pattern/MultiplexStructs.h"	[absolute_name="pica-master/multiplex/pattern/MultiplexStructs.h",
+		display_name="MultiplexStructs.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=15,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=22,
+		metric_tag_cas=0.2572184489791398,
+		metric_tag_columnindex=0.4758735487923625,
+		metric_tag_lineindex=0.2607336148046657,
+		metric_tag_spottype=0.25085969469978886,
+		metric_tag_std=0.24869828989279086,
+		metric_tag_typedef=0.3188411329513052];
+	"pica-master/multiplex/pattern/PatternManager.h"	[absolute_name="pica-master/multiplex/pattern/PatternManager.h",
+		display_name="PatternManager.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=7,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=25,
+		metric_tag_double=0.39621683441457234,
+		metric_tag_filesystem=0.31381794622848935,
+		metric_tag_pattern=0.2760259861178763,
+		metric_tag_patternmanager=0.2760259861178763,
+		metric_tag_referencenumberofpixels=0.2345293727104348,
+		metric_tag_spotlocation=0.22678690737368104,
+		metric_tag_std=0.26290235428823094];
+	"pica-master/multiplex/pattern/PatternManager.h" -> "opencv2/opencv.hpp";
+	"pica-master/multiplex/pattern/PatternManager.h" -> filesystem;
+	"pica-master/multiplex/pattern/PatternManager.h" -> map;
+	set	[display_name=set,
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=7];
+	"pica-master/multiplex/pattern/PatternManager.h" -> set;
+	"MultiplexStructs.h"	[display_name="MultiplexStructs.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=7];
+	"pica-master/multiplex/pattern/PatternManager.h" -> "MultiplexStructs.h";
+	"pica-master/multiplex/pattern/PatternManager.cpp"	[absolute_name="pica-master/multiplex/pattern/PatternManager.cpp",
+		display_name="PatternManager.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=126,
+		metric_tag_colindex=0.6010678933055323,
+		metric_tag_patternmanager=0.2671832757227115,
+		metric_tag_std=0.3393067597335816];
+	"pica-master/multiplex/pattern/PatternManager.cpp" -> iostream;
+	"pica-master/multiplex/pattern/PatternManager.cpp" -> filesystem;
+	"pica-master/multiplex/pattern/PatternManager.cpp" -> "common/fileProcessing/Parser.h";
+	"pica-master/multiplex/pattern/PatternManager.cpp" -> "common/imageProcessing/ImageAnalyzer.h";
+	"PatternManager.h"	[display_name="PatternManager.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=0];
+	"pica-master/multiplex/pattern/PatternManager.cpp" -> "PatternManager.h";
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h"	[absolute_name="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h",
+		display_name="MultiplexUseTestAnalyzer.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=5,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=3,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=40,
+		metric_tag_filesystem=0.371812865666546,
+		metric_tag_gridofspots=0.3741853599263274,
+		metric_tag_imageinformations=0.32703678718933876,
+		metric_tag_spottype=0.21600902949757142,
+		metric_tag_std=0.41531713493197114];
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" -> iostream;
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" -> string;
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" -> filesystem;
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" -> "ExcelWriter.h";
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" -> vector;
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp"	[absolute_name="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp",
+		display_name="MultiplexUseTestAnalyzer.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=261,
+		metric_tag_cv=0.4717940163173784,
+		metric_tag_scalar=0.28520806376404156,
+		metric_tag_std=0.26874850664376876];
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp" -> "common/imageProcessing/ImagePreProcessing.h";
+	"MultiplexUseTestAnalyzer.h"	[display_name="MultiplexUseTestAnalyzer.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5];
+	"pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp" -> "MultiplexUseTestAnalyzer.h";
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h"	[absolute_name="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h",
+		display_name="ExcelWriter.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=6,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=60,
+		metric_tag_double=0.21963187810560997,
+		metric_tag_filesystem=0.2435388567508652,
+		metric_tag_openxlsx=0.24264522908227237,
+		metric_tag_std=0.6217927323600809,
+		metric_tag_workbook=0.24264522908227237];
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" -> filesystem;
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" -> "OpenXLSX.hpp";
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" -> "common/imageProcessing/ImageAnalyzer.h";
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" -> vector;
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" -> climits;
+	"multiplex/algos/AlgoMultiplexConvolBrut.h"	[display_name="multiplex/algos/AlgoMultiplexConvolBrut.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4];
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" -> "multiplex/algos/AlgoMultiplexConvolBrut.h";
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp"	[absolute_name="pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp",
+		display_name="ExcelWriter.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=4,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=140,
+		metric_tag_numline=0.22945722191382198,
+		metric_tag_openxlsx=0.5053922405704323,
+		metric_tag_sheetname=0.23022075940017964,
+		metric_tag_std=0.23068923675995368,
+		metric_tag_xlcellreference=0.621596050380485];
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp" -> filesystem;
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp" -> "OpenXLSX.hpp";
+	"pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp" -> "ExcelWriter.h";
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h"	[absolute_name="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h",
+		display_name="AlgoMultiplexConvolBrut.h",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=2,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=5,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=21,
+		metric_tag_algomultiplexconvolbrut=0.3462222240723609,
+		metric_tag_algomultiplexresult=0.3093124870362169,
+		metric_tag_cv=0.24883567124692552,
+		metric_tag_gridofspots=0.28312461184825966,
+		metric_tag_image=0.21450830318292638,
+		metric_tag_map=0.22711603643823763,
+		metric_tag_spottype=0.2724027500000728];
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h" -> "multiplex/pattern/PatternManager.h";
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h" -> "common/imageProcessing/ImagePreProcessing.h";
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp"	[absolute_name="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp",
+		display_name="AlgoMultiplexConvolBrut.cpp",
+		"metric_fan-in-dependency-graph"=0,
+		"metric_fan-out-dependency-graph"=3,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1,
+		"metric_number-of-methods-in-file"=0,
+		"metric_sloc-in-file"=58,
+		metric_tag_algomultiplexconvolbrut=0.2873083990609215,
+		metric_tag_casresults=0.20380152172837332,
+		metric_tag_center=0.2298467192487372,
+		metric_tag_columnindex=0.3920554341987096,
+		metric_tag_currentcolumnresults=0.20380152172837332,
+		metric_tag_currentspotresult=0.2717353623044978,
+		metric_tag_spottype=0.40689033403794744];
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp" -> numeric;
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp" -> "common/imageProcessing/ImageAnalyzer.h";
+	"AlgoMultiplexConvolBrut.h"	[display_name="AlgoMultiplexConvolBrut.h",
+		"metric_fan-in-dependency-graph"=1,
+		"metric_fan-out-dependency-graph"=0,
+		"metric_file_result_dependency_graph_louvain-modularity-in-file"=1];
+	"pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp" -> "AlgoMultiplexConvolBrut.h";
+}
