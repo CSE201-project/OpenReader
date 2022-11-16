@@ -1,3 +1,7 @@
+% - exclude large bands as default
+% - check max in upper part rather than manual for control strip
+
+
 function Resu = GetProfileROIFit2_Color()
 
     clear all;

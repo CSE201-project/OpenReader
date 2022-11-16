@@ -1,4 +1,0 @@
-GetProfileROIFit... is the useful file
-- exclude large bands as default
-- check max in upper part rather than manual for control strip
-
