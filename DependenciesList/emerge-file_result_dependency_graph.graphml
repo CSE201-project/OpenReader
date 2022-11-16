@@ -1,0 +1,1758 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d194" for="node" attr.name="metric_tag_casresults" attr.type="float"/>
+<key id="d193" for="node" attr.name="metric_tag_currentcolumnresults" attr.type="float"/>
+<key id="d192" for="node" attr.name="metric_tag_center" attr.type="float"/>
+<key id="d191" for="node" attr.name="metric_tag_currentspotresult" attr.type="float"/>
+<key id="d190" for="node" attr.name="metric_tag_algomultiplexresult" attr.type="float"/>
+<key id="d189" for="node" attr.name="metric_tag_algomultiplexconvolbrut" attr.type="float"/>
+<key id="d188" for="node" attr.name="metric_tag_sheetname" attr.type="float"/>
+<key id="d187" for="node" attr.name="metric_tag_scalar" attr.type="float"/>
+<key id="d186" for="node" attr.name="metric_tag_imageinformations" attr.type="float"/>
+<key id="d185" for="node" attr.name="metric_tag_gridofspots" attr.type="float"/>
+<key id="d184" for="node" attr.name="metric_tag_colindex" attr.type="float"/>
+<key id="d183" for="node" attr.name="metric_tag_spotlocation" attr.type="float"/>
+<key id="d182" for="node" attr.name="metric_tag_pattern" attr.type="float"/>
+<key id="d181" for="node" attr.name="metric_tag_spottype" attr.type="float"/>
+<key id="d180" for="node" attr.name="metric_tag_cas" attr.type="float"/>
+<key id="d179" for="node" attr.name="metric_tag_lineindex" attr.type="float"/>
+<key id="d178" for="node" attr.name="metric_tag_typedef" attr.type="float"/>
+<key id="d177" for="node" attr.name="metric_tag_columnindex" attr.type="float"/>
+<key id="d176" for="node" attr.name="metric_tag_noisebeforecontrolline" attr.type="float"/>
+<key id="d175" for="node" attr.name="metric_tag_controllinedifference" attr.type="float"/>
+<key id="d174" for="node" attr.name="metric_tag_testline" attr.type="float"/>
+<key id="d173" for="node" attr.name="metric_tag_iimageprocessor" attr.type="float"/>
+<key id="d172" for="node" attr.name="metric_tag_convertmillimeterstopixels" attr.type="float"/>
+<key id="d171" for="node" attr.name="metric_tag_imageanalyzer" attr.type="float"/>
+<key id="d170" for="node" attr.name="metric_tag_values" attr.type="float"/>
+<key id="d169" for="node" attr.name="metric_tag_constexpr" attr.type="float"/>
+<key id="d168" for="node" attr.name="metric_tag_transformprofileforprocessing" attr.type="float"/>
+<key id="d167" for="node" attr.name="metric_tag_residual" attr.type="float"/>
+<key id="d166" for="node" attr.name="metric_tag_inputdata" attr.type="float"/>
+<key id="d165" for="node" attr.name="metric_tag_ceres" attr.type="float"/>
+<key id="d164" for="node" attr.name="metric_tag_beta" attr.type="float"/>
+<key id="d163" for="node" attr.name="metric_tag_initialvalues" attr.type="float"/>
+<key id="d162" for="node" attr.name="metric_tag_linearregressioncoefficients" attr.type="float"/>
+<key id="d161" for="node" attr.name="metric_tag_residualtype" attr.type="float"/>
+<key id="d160" for="node" attr.name="metric_tag_profilefitted" attr.type="float"/>
+<key id="d159" for="node" attr.name="metric_tag_exponantialfit" attr.type="float"/>
+<key id="d158" for="node" attr.name="metric_tag_curvefitter" attr.type="float"/>
+<key id="d157" for="node" attr.name="metric_tag_algoexponantialfit" attr.type="float"/>
+<key id="d156" for="node" attr.name="metric_tag_testareas" attr.type="float"/>
+<key id="d155" for="node" attr.name="metric_tag_noiseaftertestline" attr.type="float"/>
+<key id="d154" for="node" attr.name="metric_tag_rightlimitnoiseafter" attr.type="float"/>
+<key id="d153" for="node" attr.name="metric_tag_algotestminusproxnoise" attr.type="float"/>
+<key id="d152" for="node" attr.name="metric_tag_leftlimittestline" attr.type="float"/>
+<key id="d151" for="node" attr.name="metric_tag_rightlimittestline" attr.type="float"/>
+<key id="d150" for="node" attr.name="metric_tag_testlinelength" attr.type="float"/>
+<key id="d149" for="node" attr.name="metric_tag_linenumber" attr.type="float"/>
+<key id="d148" for="node" attr.name="metric_tag_stod" attr.type="float"/>
+<key id="d147" for="node" attr.name="metric_tag_currentworksheet" attr.type="float"/>
+<key id="d146" for="node" attr.name="metric_tag_insertresult" attr.type="float"/>
+<key id="d145" for="node" attr.name="metric_tag_xlcellreference" attr.type="float"/>
+<key id="d144" for="node" attr.name="metric_tag_concentrationpredictor" attr.type="float"/>
+<key id="d143" for="node" attr.name="metric_tag_initialevalues" attr.type="float"/>
+<key id="d142" for="node" attr.name="metric_tag_sum" attr.type="float"/>
+<key id="d141" for="node" attr.name="metric_tag_calibrationcurvesdata" attr.type="float"/>
+<key id="d140" for="node" attr.name="metric_tag_allprofiles" attr.type="float"/>
+<key id="d139" for="node" attr.name="metric_tag_numtl" attr.type="float"/>
+<key id="d138" for="node" attr.name="metric_tag_indexofprofile" attr.type="float"/>
+<key id="d137" for="node" attr.name="metric_tag_testlinedistance" attr.type="float"/>
+<key id="d136" for="node" attr.name="metric_tag_controlline" attr.type="float"/>
+<key id="d135" for="node" attr.name="metric_tag_tuple" attr.type="float"/>
+<key id="d134" for="node" attr.name="metric_tag_writeroccurvevalues" attr.type="float"/>
+<key id="d133" for="node" attr.name="metric_tag_min" attr.type="float"/>
+<key id="d132" for="node" attr.name="metric_tag_roccurvevalues" attr.type="float"/>
+<key id="d131" for="node" attr.name="metric_tag_max" attr.type="float"/>
+<key id="d130" for="node" attr.name="metric_tag_spacebetweencols" attr.type="float"/>
+<key id="d129" for="node" attr.name="metric_tag_determineonealgoroccurvevalues" attr.type="float"/>
+<key id="d128" for="node" attr.name="metric_tag_numfirstalgofirstcol" attr.type="float"/>
+<key id="d127" for="node" attr.name="metric_tag_resultsbyalgo" attr.type="float"/>
+<key id="d126" for="node" attr.name="metric_tag_proxnoiseparams" attr.type="float"/>
+<key id="d125" for="node" attr.name="metric_tag_openxlsx" attr.type="float"/>
+<key id="d124" for="node" attr.name="metric_tag_map" attr.type="float"/>
+<key id="d123" for="node" attr.name="metric_tag_roccurveparams" attr.type="float"/>
+<key id="d122" for="node" attr.name="metric_tag_lob" attr.type="float"/>
+<key id="d121" for="node" attr.name="metric_tag_regulatorydatabyalgo" attr.type="float"/>
+<key id="d120" for="node" attr.name="metric_tag_writeonealgoregulatorydata" attr.type="float"/>
+<key id="d119" for="node" attr.name="metric_tag_determineonealgoregulatorydata" attr.type="float"/>
+<key id="d118" for="node" attr.name="metric_tag_firstalgonumline" attr.type="float"/>
+<key id="d117" for="node" attr.name="metric_tag_spacebetweentldata" attr.type="float"/>
+<key id="d116" for="node" attr.name="metric_tag_meansforlinearregression" attr.type="float"/>
+<key id="d115" for="node" attr.name="metric_tag_coefficients" attr.type="float"/>
+<key id="d114" for="node" attr.name="metric_tag_allimagesresults" attr.type="float"/>
+<key id="d113" for="node" attr.name="metric_tag_results" attr.type="float"/>
+<key id="d112" for="node" attr.name="metric_tag_framecenter" attr.type="float"/>
+<key id="d111" for="node" attr.name="metric_tag_middle" attr.type="float"/>
+<key id="d110" for="node" attr.name="metric_tag_intermediatesteps" attr.type="float"/>
+<key id="d109" for="node" attr.name="metric_tag_cassettedata" attr.type="float"/>
+<key id="d108" for="node" attr.name="metric_tag_colorchannellab" attr.type="float"/>
+<key id="d107" for="node" attr.name="metric_tag_cassettedatatocrop" attr.type="float"/>
+<key id="d106" for="node" attr.name="metric_tag_name" attr.type="float"/>
+<key id="d105" for="node" attr.name="metric_tag_devicefocal" attr.type="float"/>
+<key id="d104" for="node" attr.name="metric_tag_croproimm" attr.type="float"/>
+<key id="d103" for="node" attr.name="metric_tag_devicetype" attr.type="float"/>
+<key id="d102" for="node" attr.name="metric_tag_lightningcondition" attr.type="float"/>
+<key id="d101" for="node" attr.name="metric_tag_imagedepth" attr.type="float"/>
+<key id="d100" for="node" attr.name="metric_tag_enum" attr.type="float"/>
+<key id="d99" for="node" attr.name="metric_tag_datafromname" attr.type="float"/>
+<key id="d98" for="node" attr.name="metric_tag_cassettetype" attr.type="float"/>
+<key id="d97" for="node" attr.name="metric_tag_cassettemodel" attr.type="float"/>
+<key id="d96" for="node" attr.name="metric_tag_beg" attr.type="float"/>
+<key id="d95" for="node" attr.name="metric_tag_stripmatrix" attr.type="float"/>
+<key id="d94" for="node" attr.name="metric_tag_column" attr.type="float"/>
+<key id="d93" for="node" attr.name="metric_tag_informations" attr.type="float"/>
+<key id="d92" for="node" attr.name="metric_tag_vector" attr.type="float"/>
+<key id="d91" for="node" attr.name="metric_tag_spotstestinformations" attr.type="float"/>
+<key id="d90" for="node" attr.name="metric_tag_nb" attr.type="float"/>
+<key id="d89" for="node" attr.name="metric_tag_image" attr.type="float"/>
+<key id="d88" for="node" attr.name="metric_tag_widthgaussiantoconvol" attr.type="float"/>
+<key id="d87" for="node" attr.name="metric_tag_mat" attr.type="float"/>
+<key id="d86" for="node" attr.name="metric_tag_cx" attr.type="float"/>
+<key id="d85" for="node" attr.name="metric_tag_cy" attr.type="float"/>
+<key id="d84" for="node" attr.name="metric_tag_point" attr.type="float"/>
+<key id="d83" for="node" attr.name="metric_tag_checkalllandmarks" attr.type="float"/>
+<key id="d82" for="node" attr.name="metric_tag_referencenumberofpixels" attr.type="float"/>
+<key id="d81" for="node" attr.name="metric_tag_gridslocationsfilepath" attr.type="float"/>
+<key id="d80" for="node" attr.name="metric_tag_patternmanager" attr.type="float"/>
+<key id="d79" for="node" attr.name="metric_tag_landmarks" attr.type="float"/>
+<key id="d78" for="node" attr.name="metric_tag_checkingresult" attr.type="float"/>
+<key id="d77" for="node" attr.name="metric_tag_profiledataraw" attr.type="float"/>
+<key id="d76" for="node" attr.name="metric_tag_cv" attr.type="float"/>
+<key id="d75" for="node" attr.name="metric_tag_proxnoisedefaultsizes" attr.type="float"/>
+<key id="d74" for="node" attr.name="metric_tag_resultconvol" attr.type="float"/>
+<key id="d73" for="node" attr.name="metric_tag_resultraw" attr.type="float"/>
+<key id="d72" for="node" attr.name="metric_tag_processorconfig" attr.type="float"/>
+<key id="d71" for="node" attr.name="metric_tag_serum" attr.type="float"/>
+<key id="d70" for="node" attr.name="metric_tag_isvalid" attr.type="float"/>
+<key id="d69" for="node" attr.name="metric_tag_cropperrectangledetectionunittest" attr.type="float"/>
+<key id="d68" for="node" attr.name="metric_tag_cropparams" attr.type="float"/>
+<key id="d67" for="node" attr.name="metric_tag_filepathstr" attr.type="float"/>
+<key id="d66" for="node" attr.name="metric_tag_expectedresult" attr.type="float"/>
+<key id="d65" for="node" attr.name="metric_tag_parser" attr.type="float"/>
+<key id="d64" for="node" attr.name="metric_tag_comparevectors" attr.type="float"/>
+<key id="d63" for="node" attr.name="metric_tag_stringtoparse" attr.type="float"/>
+<key id="d62" for="node" attr.name="metric_tag_timageprofile" attr.type="float"/>
+<key id="d61" for="node" attr.name="metric_tag_above" attr.type="float"/>
+<key id="d60" for="node" attr.name="metric_tag_analyzed" attr.type="float"/>
+<key id="d59" for="node" attr.name="metric_tag_picture" attr.type="float"/>
+<key id="d58" for="node" attr.name="metric_tag_auto" attr.type="float"/>
+<key id="d57" for="node" attr.name="metric_tag_img" attr.type="float"/>
+<key id="d56" for="node" attr.name="metric_tag_right" attr.type="float"/>
+<key id="d55" for="node" attr.name="metric_tag_findcontrolline" attr.type="float"/>
+<key id="d54" for="node" attr.name="metric_tag_have" attr.type="float"/>
+<key id="d53" for="node" attr.name="metric_tag_result" attr.type="float"/>
+<key id="d52" for="node" attr.name="metric_tag_cl" attr.type="float"/>
+<key id="d51" for="node" attr.name="metric_tag_profile" attr.type="float"/>
+<key id="d50" for="node" attr.name="metric_tag_found" attr.type="float"/>
+<key id="d49" for="node" attr.name="metric_tag_linesareas" attr.type="float"/>
+<key id="d48" for="node" attr.name="metric_tag_masklength" attr.type="float"/>
+<key id="d47" for="node" attr.name="metric_tag_require" attr.type="float"/>
+<key id="d46" for="node" attr.name="metric_tag_profilewithoutlines" attr.type="float"/>
+<key id="d45" for="node" attr.name="metric_tag_shift" attr.type="float"/>
+<key id="d44" for="node" attr.name="metric_tag_cpp" attr.type="float"/>
+<key id="d43" for="node" attr.name="metric_tag_namespace" attr.type="float"/>
+<key id="d42" for="node" attr.name="metric_tag_provide" attr.type="float"/>
+<key id="d41" for="node" attr.name="metric_tag_tells" attr.type="float"/>
+<key id="d40" for="node" attr.name="metric_tag_currentbasepath" attr.type="float"/>
+<key id="d39" for="node" attr.name="metric_tag_fs" attr.type="float"/>
+<key id="d38" for="node" attr.name="metric_tag_copyright" attr.type="float"/>
+<key id="d37" for="node" attr.name="metric_tag_rights" attr.type="float"/>
+<key id="d36" for="node" attr.name="metric_tag_mario" attr.type="float"/>
+<key id="d35" for="node" attr.name="metric_tag_valdivia" attr.type="float"/>
+<key id="d34" for="node" attr.name="metric_tag_getresourcepath" attr.type="float"/>
+<key id="d33" for="node" attr.name="metric_tag_relativepath" attr.type="float"/>
+<key id="d32" for="node" attr.name="metric_tag_class" attr.type="float"/>
+<key id="d31" for="node" attr.name="metric_tag_public" attr.type="float"/>
+<key id="d30" for="node" attr.name="metric_tag_branch" attr.type="float"/>
+<key id="d29" for="node" attr.name="metric_tag_gitversion" attr.type="float"/>
+<key id="d28" for="node" attr.name="metric_tag_revision" attr.type="float"/>
+<key id="d27" for="node" attr.name="metric_tag_tag" attr.type="float"/>
+<key id="d26" for="node" attr.name="metric_tag_algodata" attr.type="float"/>
+<key id="d25" for="node" attr.name="metric_tag_datarsquares" attr.type="float"/>
+<key id="d24" for="node" attr.name="metric_tag_filenames" attr.type="float"/>
+<key id="d23" for="node" attr.name="metric_tag_workbook" attr.type="float"/>
+<key id="d22" for="node" attr.name="metric_tag_numline" attr.type="float"/>
+<key id="d21" for="node" attr.name="metric_tag_double" attr.type="float"/>
+<key id="d20" for="node" attr.name="metric_tag_imagesource" attr.type="float"/>
+<key id="d19" for="node" attr.name="metric_tag_endl" attr.type="float"/>
+<key id="d18" for="node" attr.name="metric_tag_croppingresults" attr.type="float"/>
+<key id="d17" for="node" attr.name="metric_tag_savesteps" attr.type="float"/>
+<key id="d16" for="node" attr.name="metric_tag_csvfile" attr.type="float"/>
+<key id="d15" for="node" attr.name="metric_tag_argc" attr.type="float"/>
+<key id="d14" for="node" attr.name="metric_tag_path" attr.type="float"/>
+<key id="d13" for="node" attr.name="metric_tag_paramstr" attr.type="float"/>
+<key id="d12" for="node" attr.name="metric_fan-out-dependency-graph" attr.type="long"/>
+<key id="d11" for="node" attr.name="metric_fan-in-dependency-graph" attr.type="long"/>
+<key id="d10" for="node" attr.name="metric_file_result_dependency_graph_louvain-modularity-in-file" attr.type="long"/>
+<key id="d9" for="node" attr.name="metric_tag_wstring" attr.type="float"/>
+<key id="d8" for="node" attr.name="metric_tag_focal" attr.type="float"/>
+<key id="d7" for="node" attr.name="metric_tag_filesystem" attr.type="float"/>
+<key id="d6" for="node" attr.name="metric_tag_runnerfunction" attr.type="float"/>
+<key id="d5" for="node" attr.name="metric_tag_argv" attr.type="float"/>
+<key id="d4" for="node" attr.name="metric_tag_std" attr.type="float"/>
+<key id="d3" for="node" attr.name="metric_sloc-in-file" attr.type="long"/>
+<key id="d2" for="node" attr.name="metric_number-of-methods-in-file" attr.type="long"/>
+<key id="d1" for="node" attr.name="display_name" attr.type="string"/>
+<key id="d0" for="node" attr.name="absolute_name" attr.type="string"/>
+<graph edgedefault="directed"><node id="pica-master/main_matlab.cpp">
+  <data key="d0">pica-master/main_matlab.cpp</data>
+  <data key="d1">main_matlab.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">324</data>
+  <data key="d4">0.4724338770888255</data>
+  <data key="d5">0.30884074926669564</data>
+  <data key="d6">0.27865607427710587</data>
+  <data key="d7">0.20748326553754046</data>
+  <data key="d8">0.20708054186799643</data>
+  <data key="d9">0.2042738422819414</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">9</data>
+</node>
+<node id="iostream">
+  <data key="d1">iostream</data>
+  <data key="d10">3</data>
+  <data key="d11">8</data>
+  <data key="d12">0</data>
+</node>
+<node id="string">
+  <data key="d1">string</data>
+  <data key="d10">3</data>
+  <data key="d11">10</data>
+  <data key="d12">0</data>
+</node>
+<node id="opencv2/opencv.hpp">
+  <data key="d1">opencv2/opencv.hpp</data>
+  <data key="d10">3</data>
+  <data key="d11">10</data>
+  <data key="d12">0</data>
+</node>
+<node id="filesystem">
+  <data key="d1">filesystem</data>
+  <data key="d10">3</data>
+  <data key="d11">18</data>
+  <data key="d12">0</data>
+</node>
+<node id="OpenXLSX.hpp">
+  <data key="d1">OpenXLSX.hpp</data>
+  <data key="d10">4</data>
+  <data key="d11">6</data>
+  <data key="d12">0</data>
+</node>
+<node id="fstream">
+  <data key="d1">fstream</data>
+  <data key="d10">3</data>
+  <data key="d11">4</data>
+  <data key="d12">0</data>
+</node>
+<node id="regex">
+  <data key="d1">regex</data>
+  <data key="d10">3</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="common/cropper/StripCropperRectangleDetection.h">
+  <data key="d1">common/cropper/StripCropperRectangleDetection.h</data>
+  <data key="d10">12</data>
+  <data key="d11">5</data>
+  <data key="d12">0</data>
+</node>
+<node id="common/fileProcessing/Parser.h">
+  <data key="d1">common/fileProcessing/Parser.h</data>
+  <data key="d10">0</data>
+  <data key="d11">5</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/main_analyzeMultiplex.cpp">
+  <data key="d0">pica-master/main_analyzeMultiplex.cpp</data>
+  <data key="d1">main_analyzeMultiplex.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">40</data>
+  <data key="d5">0.7006825928491898</data>
+  <data key="d4">0.3114387262391469</data>
+  <data key="d7">0.23898486009076336</data>
+  <data key="d13">0.2352881592232295</data>
+  <data key="d14">0.22117468966983897</data>
+  <data key="d15">0.2102047778547569</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h">
+  <data key="d1">multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h</data>
+  <data key="d10">3</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/main_massTest.cpp">
+  <data key="d0">pica-master/main_massTest.cpp</data>
+  <data key="d1">main_massTest.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">219</data>
+  <data key="d4">0.3750800732539794</data>
+  <data key="d16">0.2842519096688493</data>
+  <data key="d17">0.25582671870196433</data>
+  <data key="d18">0.25582671870196433</data>
+  <data key="d19">0.23593885599181294</data>
+  <data key="d20">0.22740152773507943</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">7</data>
+</node>
+<node id="numeric">
+  <data key="d1">numeric</data>
+  <data key="d10">1</data>
+  <data key="d11">10</data>
+  <data key="d12">0</data>
+</node>
+<node id="GitVersion.h">
+  <data key="d1">GitVersion.h</data>
+  <data key="d10">1</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="monoplex/algos/AlgoExponantialFit.h">
+  <data key="d1">monoplex/algos/AlgoExponantialFit.h</data>
+  <data key="d10">1</data>
+  <data key="d11">4</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/main_compileData.cpp">
+  <data key="d0">pica-master/main_compileData.cpp</data>
+  <data key="d1">main_compileData.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">451</data>
+  <data key="d21">0.34625011795267857</data>
+  <data key="d4">0.3400268379533133</data>
+  <data key="d22">0.28945977641520626</data>
+  <data key="d23">0.2486449642227942</data>
+  <data key="d24">0.2298289915779765</data>
+  <data key="d25">0.20429243695820135</data>
+  <data key="d26">0.20429243695820135</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">10</data>
+</node>
+<node id="monoplex/algos/CurveFitter.h">
+  <data key="d1">monoplex/algos/CurveFitter.h</data>
+  <data key="d10">1</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/main_analyzeUseTest.cpp">
+  <data key="d0">pica-master/main_analyzeUseTest.cpp</data>
+  <data key="d1">main_analyzeUseTest.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">36</data>
+  <data key="d5">0.6928593615781553</data>
+  <data key="d4">0.31773801832378495</data>
+  <data key="d13">0.2585123666074922</data>
+  <data key="d15">0.23095312052605177</data>
+  <data key="d10">12</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h">
+  <data key="d1">monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h</data>
+  <data key="d10">12</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/GitVersion.h">
+  <data key="d0">pica-master/GitVersion.h</data>
+  <data key="d1">GitVersion.h</data>
+  <data key="d2">0</data>
+  <data key="d3">10</data>
+  <data key="d27">0.41103130520219217</data>
+  <data key="d28">0.41103130520219217</data>
+  <data key="d29">0.41103130520219217</data>
+  <data key="d30">0.41103130520219217</data>
+  <data key="d4">0.32515872223750963</data>
+  <data key="d31">0.2155236815362922</data>
+  <data key="d32">0.2155236815362922</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="pica-master/tests/TestTools.h">
+  <data key="d0">pica-master/tests/TestTools.h</data>
+  <data key="d1">TestTools.h</data>
+  <data key="d2">0</data>
+  <data key="d3">5</data>
+  <data key="d33">0.597919037229105</data>
+  <data key="d34">0.40802464238565894</data>
+  <data key="d4">0.31533460296292265</data>
+  <data key="d35">0.28803568923401146</data>
+  <data key="d36">0.28803568923401146</data>
+  <data key="d37">0.28230345562475173</data>
+  <data key="d38">0.28230345562475173</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="pica-master/tests/TestTools.cpp">
+  <data key="d0">pica-master/tests/TestTools.cpp</data>
+  <data key="d1">TestTools.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">11</data>
+  <data key="d39">0.6147699007639498</data>
+  <data key="d40">0.4098466005092999</data>
+  <data key="d41">0.20492330025464994</data>
+  <data key="d42">0.20492330025464994</data>
+  <data key="d43">0.20492330025464994</data>
+  <data key="d44">0.20492330025464994</data>
+  <data key="d10">14</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="catch2/catch.hpp">
+  <data key="d1">catch2/catch.hpp</data>
+  <data key="d10">2</data>
+  <data key="d11">11</data>
+  <data key="d12">0</data>
+</node>
+<node id="TestTools.h">
+  <data key="d1">TestTools.h</data>
+  <data key="d10">14</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp">
+  <data key="d0">pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp</data>
+  <data key="d1">TestRemoveLinesOnProfile.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">42</data>
+  <data key="d45">0.5345375107482868</data>
+  <data key="d46">0.48999271818592954</data>
+  <data key="d47">0.38208350945161285</data>
+  <data key="d48">0.30957633781062327</data>
+  <data key="d49">0.23660564048387708</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="common/imageProcessing/ImageAnalyzer.h">
+  <data key="d1">common/imageProcessing/ImageAnalyzer.h</data>
+  <data key="d10">2</data>
+  <data key="d11">9</data>
+  <data key="d12">0</data>
+</node>
+<node id="tests/TestTools.h">
+  <data key="d1">tests/TestTools.h</data>
+  <data key="d10">2</data>
+  <data key="d11">10</data>
+  <data key="d12">0</data>
+</node>
+<node id="tests/common/imageProcessing/resources/Profiles.h">
+  <data key="d1">tests/common/imageProcessing/resources/Profiles.h</data>
+  <data key="d10">2</data>
+  <data key="d11">5</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/common/imageProcessing/TestFindControlLine.cpp">
+  <data key="d0">pica-master/tests/common/imageProcessing/TestFindControlLine.cpp</data>
+  <data key="d1">TestFindControlLine.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">75</data>
+  <data key="d50">0.35542087516872856</data>
+  <data key="d51">0.3356761760387263</data>
+  <data key="d52">0.32337138751542926</data>
+  <data key="d53">0.3180090088787933</data>
+  <data key="d54">0.2829938082996374</data>
+  <data key="d55">0.25639777678515047</data>
+  <data key="d56">0.23694725011248569</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/tests/common/imageProcessing/TestComputeProfile.cpp">
+  <data key="d0">pica-master/tests/common/imageProcessing/TestComputeProfile.cpp</data>
+  <data key="d1">TestComputeProfile.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">17</data>
+  <data key="d57">0.47730139695813684</data>
+  <data key="d58">0.2795444765100786</data>
+  <data key="d59">0.23865069847906842</data>
+  <data key="d60">0.23865069847906842</data>
+  <data key="d61">0.23865069847906842</data>
+  <data key="d53">0.21353014804077466</data>
+  <data key="d51">0.21353014804077466</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="cmath">
+  <data key="d1">cmath</data>
+  <data key="d10">2</data>
+  <data key="d11">4</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/common/imageProcessing/resources/Profiles.h">
+  <data key="d0">pica-master/tests/common/imageProcessing/resources/Profiles.h</data>
+  <data key="d1">Profiles.h</data>
+  <data key="d2">0</data>
+  <data key="d3">548</data>
+  <data key="d62">0.9805673086257151</data>
+  <data key="d10">9</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="monoplex/algos/IImageProcessor.h">
+  <data key="d1">monoplex/algos/IImageProcessor.h</data>
+  <data key="d10">9</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/common/fileProcessing/TestParser.cpp">
+  <data key="d0">pica-master/tests/common/fileProcessing/TestParser.cpp</data>
+  <data key="d1">TestParser.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">86</data>
+  <data key="d63">0.37840467893935414</data>
+  <data key="d64">0.3027237431514833</data>
+  <data key="d4">0.2995907148590227</data>
+  <data key="d65">0.28791481668027713</data>
+  <data key="d66">0.2648832752575479</data>
+  <data key="d47">0.2349411918445896</data>
+  <data key="d67">0.2270428073636125</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp">
+  <data key="d0">pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp</data>
+  <data key="d1">TestCropperRectangleDetection.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">153</data>
+  <data key="d68">0.7519523606132651</data>
+  <data key="d69">0.33723510122107253</data>
+  <data key="d70">0.2852495198778048</data>
+  <data key="d71">0.2196931914935629</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp">
+  <data key="d0">pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp</data>
+  <data key="d1">TestTestMinusProxNoise.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">120</data>
+  <data key="d72">0.5186092174582563</data>
+  <data key="d47">0.31520973247562156</data>
+  <data key="d73">0.30317418141664615</data>
+  <data key="d74">0.30317418141664615</data>
+  <data key="d75">0.22738063606248463</data>
+  <data key="d76">0.20575743414510966</data>
+  <data key="d77">0.20211612094443077</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="monoplex/algos/AlgoTestMinusProxNoise.h">
+  <data key="d1">monoplex/algos/AlgoTestMinusProxNoise.h</data>
+  <data key="d10">1</data>
+  <data key="d11">4</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp">
+  <data key="d0">pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp</data>
+  <data key="d1">TestAlgoExponantialFit.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">133</data>
+  <data key="d72">0.5104747399206938</data>
+  <data key="d47">0.3678148786560715</data>
+  <data key="d73">0.2695395979803883</data>
+  <data key="d74">0.2695395979803883</data>
+  <data key="d75">0.20215469848529122</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp">
+  <data key="d0">pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp</data>
+  <data key="d1">TestAlgoPoly2.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">131</data>
+  <data key="d72">0.5201743037675521</data>
+  <data key="d47">0.37480375316904596</data>
+  <data key="d73">0.2746611374717909</data>
+  <data key="d74">0.2746611374717909</data>
+  <data key="d75">0.20599585310384316</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="monoplex/algos/AlgoPoly2.h">
+  <data key="d1">monoplex/algos/AlgoPoly2.h</data>
+  <data key="d10">1</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/monoplex/algos/TestProxNoise.cpp">
+  <data key="d0">pica-master/tests/monoplex/algos/TestProxNoise.cpp</data>
+  <data key="d1">TestProxNoise.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">118</data>
+  <data key="d72">0.47702371826886514</data>
+  <data key="d47">0.398659445576124</data>
+  <data key="d73">0.27886368084872853</data>
+  <data key="d74">0.27886368084872853</data>
+  <data key="d75">0.20914776063654641</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="monoplex/algos/AlgoProxNoise.h">
+  <data key="d1">monoplex/algos/AlgoProxNoise.h</data>
+  <data key="d10">1</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/multiplex/pattern/TestPatternManager.cpp">
+  <data key="d0">pica-master/tests/multiplex/pattern/TestPatternManager.cpp</data>
+  <data key="d1">TestPatternManager.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">102</data>
+  <data key="d78">0.42394306712532537</data>
+  <data key="d79">0.3585912495916264</data>
+  <data key="d80">0.256290309584353</data>
+  <data key="d47">0.23689326667277782</data>
+  <data key="d81">0.23459154564634202</data>
+  <data key="d82">0.21776067675350183</data>
+  <data key="d83">0.21197153356266268</data>
+  <data key="d10">2</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="tests/multiplex/pattern/resources/DataToTest.h">
+  <data key="d1">tests/multiplex/pattern/resources/DataToTest.h</data>
+  <data key="d10">2</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/tests/multiplex/pattern/resources/DataToTest.h">
+  <data key="d0">pica-master/tests/multiplex/pattern/resources/DataToTest.h</data>
+  <data key="d1">DataToTest.h</data>
+  <data key="d2">0</data>
+  <data key="d3">40</data>
+  <data key="d84">0.7385541369599414</data>
+  <data key="d76">0.4821012441609376</data>
+  <data key="d10">5</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="multiplex/pattern/PatternManager.h">
+  <data key="d1">multiplex/pattern/PatternManager.h</data>
+  <data key="d10">5</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/imageProcessing/ImagePreProcessing.cpp">
+  <data key="d0">pica-master/common/imageProcessing/ImagePreProcessing.cpp</data>
+  <data key="d1">ImagePreProcessing.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">90</data>
+  <data key="d76">0.5357019018362702</data>
+  <data key="d85">0.41306140978603284</data>
+  <data key="d86">0.41306140978603284</data>
+  <data key="d87">0.28275020485623614</data>
+  <data key="d10">8</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="ImagePreProcessing.h">
+  <data key="d1">ImagePreProcessing.h</data>
+  <data key="d10">8</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="ImageAnalyzer.h">
+  <data key="d1">ImageAnalyzer.h</data>
+  <data key="d10">8</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/imageProcessing/ImagePreProcessing.h">
+  <data key="d0">pica-master/common/imageProcessing/ImagePreProcessing.h</data>
+  <data key="d1">ImagePreProcessing.h</data>
+  <data key="d2">0</data>
+  <data key="d3">14</data>
+  <data key="d76">0.5564970301300801</data>
+  <data key="d88">0.33183972119169713</data>
+  <data key="d89">0.3083960412084166</data>
+  <data key="d87">0.2746530095821895</data>
+  <data key="d10">8</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="pica-master/common/imageProcessing/ImageAnalyzer.h">
+  <data key="d0">pica-master/common/imageProcessing/ImageAnalyzer.h</data>
+  <data key="d1">ImageAnalyzer.h</data>
+  <data key="d2">0</data>
+  <data key="d3">75</data>
+  <data key="d21">0.622928773306277</data>
+  <data key="d76">0.3310143516755873</data>
+  <data key="d4">0.26943179632156283</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="pica-master/common/imageProcessing/ImageAnalyzer.cpp">
+  <data key="d0">pica-master/common/imageProcessing/ImageAnalyzer.cpp</data>
+  <data key="d1">ImageAnalyzer.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">431</data>
+  <data key="d76">0.4114352509352106</data>
+  <data key="d21">0.34174725743525597</data>
+  <data key="d90">0.207269358727143</data>
+  <data key="d4">0.20576377052980865</data>
+  <data key="d10">8</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="opencv2/plot.hpp">
+  <data key="d1">opencv2/plot.hpp</data>
+  <data key="d10">8</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/fileProcessing/Parser.h">
+  <data key="d0">pica-master/common/fileProcessing/Parser.h</data>
+  <data key="d1">Parser.h</data>
+  <data key="d2">0</data>
+  <data key="d3">19</data>
+  <data key="d4">0.6472133357878954</data>
+  <data key="d7">0.2414241881250567</data>
+  <data key="d91">0.22480620779107416</data>
+  <data key="d92">0.21009945553753415</data>
+  <data key="d93">0.20453468103405778</data>
+  <data key="d94">0.20453468103405778</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="pica-master/common/fileProcessing/Parser.cpp">
+  <data key="d0">pica-master/common/fileProcessing/Parser.cpp</data>
+  <data key="d1">Parser.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">123</data>
+  <data key="d4">0.6135194942394363</data>
+  <data key="d65">0.2721271859641195</data>
+  <data key="d10">10</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="Poco/JSON/JSON.h">
+  <data key="d1">Poco/JSON/JSON.h</data>
+  <data key="d10">10</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="Poco/JSON/Parser.h">
+  <data key="d1">Poco/JSON/Parser.h</data>
+  <data key="d10">10</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="Parser.h">
+  <data key="d1">Parser.h</data>
+  <data key="d10">10</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/cropper/CassetteType.cpp">
+  <data key="d0">pica-master/common/cropper/CassetteType.cpp</data>
+  <data key="d1">CassetteType.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">47</data>
+  <data key="d95">0.6131848347703867</data>
+  <data key="d96">0.36246765622883714</data>
+  <data key="d97">0.28860460819288275</data>
+  <data key="d98">0.23088368655430622</data>
+  <data key="d99">0.21748059373730227</data>
+  <data key="d10">13</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="CassetteType.h">
+  <data key="d1">CassetteType.h</data>
+  <data key="d10">13</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/cropper/CropperStructsAndData.h">
+  <data key="d0">pica-master/common/cropper/CropperStructsAndData.h</data>
+  <data key="d1">CropperStructsAndData.h</data>
+  <data key="d2">0</data>
+  <data key="d3">33</data>
+  <data key="d100">0.42027741516172107</data>
+  <data key="d101">0.36456290037821387</data>
+  <data key="d102">0.33168904577140224</data>
+  <data key="d103">0.33168904577140224</data>
+  <data key="d104">0.3083646747376233</data>
+  <data key="d105">0.2902728870210978</data>
+  <data key="d95">0.2055764498250822</data>
+  <data key="d10">13</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="pica-master/common/cropper/CassetteType.h">
+  <data key="d0">pica-master/common/cropper/CassetteType.h</data>
+  <data key="d1">CassetteType.h</data>
+  <data key="d2">0</data>
+  <data key="d3">25</data>
+  <data key="d95">0.4841294785373392</data>
+  <data key="d97">0.3417941635499198</data>
+  <data key="d106">0.24349902551207583</data>
+  <data key="d107">0.2420647392686696</data>
+  <data key="d108">0.22786277569994656</data>
+  <data key="d109">0.22786277569994656</data>
+  <data key="d10">7</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="map">
+  <data key="d1">map</data>
+  <data key="d10">7</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/cropper/StripCropperRectangleDetection.h">
+  <data key="d0">pica-master/common/cropper/StripCropperRectangleDetection.h</data>
+  <data key="d1">StripCropperRectangleDetection.h</data>
+  <data key="d2">0</data>
+  <data key="d3">77</data>
+  <data key="d76">0.6548325797168472</data>
+  <data key="d87">0.30163974609714816</data>
+  <data key="d110">0.2572975726107917</data>
+  <data key="d4">0.21707890904194885</data>
+  <data key="d10">11</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="opencv2/imgcodecs.hpp">
+  <data key="d1">opencv2/imgcodecs.hpp</data>
+  <data key="d10">11</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="opencv2/imgproc.hpp">
+  <data key="d1">opencv2/imgproc.hpp</data>
+  <data key="d10">11</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="CropperStructsAndData.h">
+  <data key="d1">CropperStructsAndData.h</data>
+  <data key="d10">11</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/common/cropper/StripCropperRectangleDetection.cpp">
+  <data key="d0">pica-master/common/cropper/StripCropperRectangleDetection.cpp</data>
+  <data key="d1">StripCropperRectangleDetection.cpp</data>
+  <data key="d2">3</data>
+  <data key="d3">417</data>
+  <data key="d76">0.5067861264849911</data>
+  <data key="d111">0.2471818626564126</data>
+  <data key="d112">0.22489264835079428</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="StripCropperRectangleDetection.h">
+  <data key="d1">StripCropperRectangleDetection.h</data>
+  <data key="d10">1</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h</data>
+  <data key="d1">ConcentrationPredictor.h</data>
+  <data key="d2">0</data>
+  <data key="d3">23</data>
+  <data key="d4">0.48942860847411845</data>
+  <data key="d113">0.3911828485678986</data>
+  <data key="d92">0.3404552535758944</data>
+  <data key="d114">0.3045556870461564</data>
+  <data key="d115">0.2374845613233933</data>
+  <data key="d116">0.21569178423624863</data>
+  <data key="d10">4</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="AnalyzeUseTestStructs.h">
+  <data key="d1">AnalyzeUseTestStructs.h</data>
+  <data key="d10">4</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="ExcelWriter.h">
+  <data key="d1">ExcelWriter.h</data>
+  <data key="d10">4</data>
+  <data key="d11">8</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp</data>
+  <data key="d1">RegulatoryDataManager.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">82</data>
+  <data key="d117">0.38973522251957016</data>
+  <data key="d118">0.38973522251957016</data>
+  <data key="d119">0.3545914955331711</data>
+  <data key="d120">0.2930281105921317</data>
+  <data key="d121">0.2563995967681152</data>
+  <data key="d23">0.2378496887193119</data>
+  <data key="d122">0.21651956806642786</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="RegulatoryDataManager.h">
+  <data key="d1">RegulatoryDataManager.h</data>
+  <data key="d10">5</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h</data>
+  <data key="d1">ROCCurveManager.h</data>
+  <data key="d2">0</data>
+  <data key="d3">35</data>
+  <data key="d4">0.4883179527331479</data>
+  <data key="d123">0.4614245480092196</data>
+  <data key="d21">0.40476581759396074</data>
+  <data key="d92">0.3623281724468942</data>
+  <data key="d124">0.2760641164745659</data>
+  <data key="d10">7</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="vector">
+  <data key="d1">vector</data>
+  <data key="d10">6</data>
+  <data key="d11">7</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ExcelWriter.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ExcelWriter.h</data>
+  <data key="d1">ExcelWriter.h</data>
+  <data key="d2">0</data>
+  <data key="d3">63</data>
+  <data key="d125">0.5616390937991963</data>
+  <data key="d23">0.5320791414939754</data>
+  <data key="d4">0.35507401810352174</data>
+  <data key="d10">4</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="climits">
+  <data key="d1">climits</data>
+  <data key="d10">4</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="ROCCurveManager.h">
+  <data key="d1">ROCCurveManager.h</data>
+  <data key="d10">9</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp</data>
+  <data key="d1">ProxNoiseGrids.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">256</data>
+  <data key="d4">0.3769977143845583</data>
+  <data key="d126">0.350076139278463</data>
+  <data key="d21">0.3258613558252096</data>
+  <data key="d10">5</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="ProxNoiseGrids.h">
+  <data key="d1">ProxNoiseGrids.h</data>
+  <data key="d10">5</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.h</data>
+  <data key="d1">RegulatoryDataManager.h</data>
+  <data key="d2">0</data>
+  <data key="d3">14</data>
+  <data key="d127">0.440784685815591</data>
+  <data key="d121">0.34455302351775585</data>
+  <data key="d4">0.2931859008497388</data>
+  <data key="d21">0.27616049180162383</data>
+  <data key="d92">0.2175416878439725</data>
+  <data key="d23">0.20339799600024888</data>
+  <data key="d125">0.20339799600024888</data>
+  <data key="d10">4</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp</data>
+  <data key="d1">ROCCurveManager.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">94</data>
+  <data key="d128">0.37655560146181266</data>
+  <data key="d129">0.3426003249347887</data>
+  <data key="d130">0.33471609018827797</data>
+  <data key="d131">0.33471609018827797</data>
+  <data key="d132">0.30453362216425667</data>
+  <data key="d133">0.30453362216425667</data>
+  <data key="d134">0.28311882030035923</data>
+  <data key="d10">9</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="algorithm">
+  <data key="d1">algorithm</data>
+  <data key="d10">9</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h</data>
+  <data key="d1">AnalyzeUseTestStructs.h</data>
+  <data key="d2">0</data>
+  <data key="d3">168</data>
+  <data key="d21">0.6672796188012312</data>
+  <data key="d4">0.49952529036385407</data>
+  <data key="d92">0.28159311636187656</data>
+  <data key="d135">0.20004725174295862</data>
+  <data key="d10">6</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h</data>
+  <data key="d1">ProxNoiseGrids.h</data>
+  <data key="d2">0</data>
+  <data key="d3">41</data>
+  <data key="d4">0.5577851634798312</data>
+  <data key="d126">0.40658974155590305</data>
+  <data key="d92">0.33862279873821516</data>
+  <data key="d21">0.32478925407041037</data>
+  <data key="d124">0.3127304015182169</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp</data>
+  <data key="d1">MonoplexUseTestAnalyzer.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">388</data>
+  <data key="d4">0.36898140627633985</data>
+  <data key="d136">0.32046415966371</data>
+  <data key="d137">0.3138704933983184</data>
+  <data key="d138">0.2712893553511004</data>
+  <data key="d139">0.25065734312565185</data>
+  <data key="d10">5</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="MonoplexUseTestAnalyzer.h">
+  <data key="d1">MonoplexUseTestAnalyzer.h</data>
+  <data key="d10">5</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="ConcentrationPredictor.h">
+  <data key="d1">ConcentrationPredictor.h</data>
+  <data key="d10">1</data>
+  <data key="d11">2</data>
+  <data key="d12">0</data>
+</node>
+<node id="common/imageProcessing/ImagePreProcessing.h">
+  <data key="d1">common/imageProcessing/ImagePreProcessing.h</data>
+  <data key="d10">5</data>
+  <data key="d11">4</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h</data>
+  <data key="d1">MonoplexUseTestAnalyzer.h</data>
+  <data key="d2">0</data>
+  <data key="d3">62</data>
+  <data key="d4">0.5104504227451854</data>
+  <data key="d72">0.33871112390203173</data>
+  <data key="d7">0.24926235683749365</data>
+  <data key="d92">0.2324149539341366</data>
+  <data key="d140">0.21924459284441333</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">8</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp</data>
+  <data key="d1">ConcentrationPredictor.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">171</data>
+  <data key="d4">0.4257094191181394</data>
+  <data key="d141">0.27834665870824477</data>
+  <data key="d139">0.2646789495421125</data>
+  <data key="d142">0.25393550775091667</data>
+  <data key="d143">0.21415360727782012</data>
+  <data key="d144">0.20701865912334563</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">7</data>
+</node>
+<node id="pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp">
+  <data key="d0">pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp</data>
+  <data key="d1">ExcelWriter.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">530</data>
+  <data key="d145">0.530778318666933</data>
+  <data key="d125">0.42076355289622847</data>
+  <data key="d146">0.3837975489931872</data>
+  <data key="d4">0.28148061630959487</data>
+  <data key="d147">0.2653891593334665</data>
+  <data key="d148">0.24588699435709963</data>
+  <data key="d149">0.22410640121492728</data>
+  <data key="d10">4</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp">
+  <data key="d0">pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp</data>
+  <data key="d1">AlgoTestMinusProxNoise.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">75</data>
+  <data key="d150">0.31903169225588235</data>
+  <data key="d21">0.2780402506330203</data>
+  <data key="d151">0.2743656823248437</data>
+  <data key="d152">0.2743656823248437</data>
+  <data key="d153">0.26105000141686663</data>
+  <data key="d154">0.219492545859875</data>
+  <data key="d155">0.219492545859875</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">7</data>
+</node>
+<node id="AlgoTestMinusProxNoise.h">
+  <data key="d1">AlgoTestMinusProxNoise.h</data>
+  <data key="d10">0</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="AlgoProxNoise.h">
+  <data key="d1">AlgoProxNoise.h</data>
+  <data key="d10">0</data>
+  <data key="d11">5</data>
+  <data key="d12">0</data>
+</node>
+<node id="CurveFitter.h">
+  <data key="d1">CurveFitter.h</data>
+  <data key="d10">0</data>
+  <data key="d11">6</data>
+  <data key="d12">0</data>
+</node>
+<node id="tuple">
+  <data key="d1">tuple</data>
+  <data key="d10">0</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="limits">
+  <data key="d1">limits</data>
+  <data key="d10">0</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoExponantialFit.h">
+  <data key="d0">pica-master/monoplex/algos/AlgoExponantialFit.h</data>
+  <data key="d1">AlgoExponantialFit.h</data>
+  <data key="d2">0</data>
+  <data key="d3">13</data>
+  <data key="d156">0.40265750447343207</data>
+  <data key="d4">0.29031869901295615</data>
+  <data key="d31">0.2886462082250166</data>
+  <data key="d51">0.2706783979958951</data>
+  <data key="d21">0.24611381045142539</data>
+  <data key="d157">0.22860818059369925</data>
+  <data key="d135">0.22381070298321976</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoExponantialFit.cpp">
+  <data key="d0">pica-master/monoplex/algos/AlgoExponantialFit.cpp</data>
+  <data key="d1">AlgoExponantialFit.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">26</data>
+  <data key="d158">0.35502095698321273</data>
+  <data key="d156">0.34157639761009406</data>
+  <data key="d157">0.29089421378167524</data>
+  <data key="d51">0.28702231757489083</data>
+  <data key="d62">0.23954992634481045</data>
+  <data key="d159">0.23348975026669708</data>
+  <data key="d160">0.21707075290385328</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="AlgoExponantialFit.h">
+  <data key="d1">AlgoExponantialFit.h</data>
+  <data key="d10">0</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/algos/CurveFitter.h">
+  <data key="d0">pica-master/monoplex/algos/CurveFitter.h</data>
+  <data key="d1">CurveFitter.h</data>
+  <data key="d2">0</data>
+  <data key="d3">19</data>
+  <data key="d21">0.6174845098155259</data>
+  <data key="d161">0.34528352088979314</data>
+  <data key="d162">0.25256076783873976</data>
+  <data key="d4">0.24279729124977026</data>
+  <data key="d163">0.23018901392652874</data>
+  <data key="d92">0.20267294210943632</data>
+  <data key="d164">0.2014465973019906</data>
+  <data key="d10">6</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="functional">
+  <data key="d1">functional</data>
+  <data key="d10">6</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="IImageProcessor.h">
+  <data key="d1">IImageProcessor.h</data>
+  <data key="d10">6</data>
+  <data key="d11">4</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/algos/CurveFitter.cpp">
+  <data key="d0">pica-master/monoplex/algos/CurveFitter.cpp</data>
+  <data key="d1">CurveFitter.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">180</data>
+  <data key="d165">0.5181026716835097</data>
+  <data key="d21">0.44257207648971125</data>
+  <data key="d166">0.25926099263588936</data>
+  <data key="d167">0.23314620225757932</data>
+  <data key="d164">0.20626229126289838</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="ceres/ceres.h">
+  <data key="d1">ceres/ceres.h</data>
+  <data key="d10">0</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoPoly2.h">
+  <data key="d0">pica-master/monoplex/algos/AlgoPoly2.h</data>
+  <data key="d1">AlgoPoly2.h</data>
+  <data key="d2">0</data>
+  <data key="d3">13</data>
+  <data key="d156">0.4136105252409526</data>
+  <data key="d4">0.2982158987525881</data>
+  <data key="d31">0.2964979131554614</data>
+  <data key="d51">0.27804134561671573</data>
+  <data key="d21">0.2528085563511034</data>
+  <data key="d135">0.22989876355711705</data>
+  <data key="d168">0.2241734695561687</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">1</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoPoly2.cpp">
+  <data key="d0">pica-master/monoplex/algos/AlgoPoly2.cpp</data>
+  <data key="d1">AlgoPoly2.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">25</data>
+  <data key="d158">0.39414035683365906</data>
+  <data key="d156">0.37921435507359147</data>
+  <data key="d51">0.3186490161862206</data>
+  <data key="d62">0.26594569022437975</data>
+  <data key="d160">0.24098955941837913</data>
+  <data key="d46">0.22685067676391804</data>
+  <data key="d164">0.22685067676391804</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="AlgoPoly2.h">
+  <data key="d1">AlgoPoly2.h</data>
+  <data key="d10">0</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoProxNoise.h">
+  <data key="d0">pica-master/monoplex/algos/AlgoProxNoise.h</data>
+  <data key="d1">AlgoProxNoise.h</data>
+  <data key="d2">0</data>
+  <data key="d3">19</data>
+  <data key="d21">0.4625653004507498</data>
+  <data key="d169">0.3607011990675883</data>
+  <data key="d31">0.2034389899534809</data>
+  <data key="d10">6</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="cstdint">
+  <data key="d1">cstdint</data>
+  <data key="d10">6</data>
+  <data key="d11">3</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoTestMinusProxNoise.h">
+  <data key="d0">pica-master/monoplex/algos/AlgoTestMinusProxNoise.h</data>
+  <data key="d1">AlgoTestMinusProxNoise.h</data>
+  <data key="d2">0</data>
+  <data key="d3">19</data>
+  <data key="d21">0.5278760772736696</data>
+  <data key="d115">0.241716903762215</data>
+  <data key="d4">0.23350827364135462</data>
+  <data key="d10">6</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="pica-master/monoplex/algos/IImageProcessor.h">
+  <data key="d0">pica-master/monoplex/algos/IImageProcessor.h</data>
+  <data key="d1">IImageProcessor.h</data>
+  <data key="d2">0</data>
+  <data key="d3">58</data>
+  <data key="d21">0.5906025533175774</data>
+  <data key="d72">0.3707914651345027</data>
+  <data key="d4">0.21771300211473982</data>
+  <data key="d10">6</data>
+  <data key="d11">0</data>
+  <data key="d12">4</data>
+</node>
+<node id="pica-master/monoplex/algos/IImageProcessor.cpp">
+  <data key="d0">pica-master/monoplex/algos/IImageProcessor.cpp</data>
+  <data key="d1">IImageProcessor.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">125</data>
+  <data key="d170">0.30827757502647535</data>
+  <data key="d171">0.30443955984174265</data>
+  <data key="d21">0.24172118862950834</data>
+  <data key="d172">0.2341395856464716</data>
+  <data key="d173">0.22505904158289214</data>
+  <data key="d136">0.22137412540368623</data>
+  <data key="d174">0.20031204972248895</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">7</data>
+</node>
+<node id="pica-master/monoplex/algos/AlgoProxNoise.cpp">
+  <data key="d0">pica-master/monoplex/algos/AlgoProxNoise.cpp</data>
+  <data key="d1">AlgoProxNoise.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">67</data>
+  <data key="d150">0.30692423428733956</data>
+  <data key="d175">0.29011386450197346</data>
+  <data key="d151">0.2639533281688363</data>
+  <data key="d152">0.2639533281688363</data>
+  <data key="d21">0.2360192155109141</data>
+  <data key="d176">0.2320910916015788</data>
+  <data key="d154">0.21116266253506905</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="pica-master/multiplex/pattern/MultiplexStructs.h">
+  <data key="d0">pica-master/multiplex/pattern/MultiplexStructs.h</data>
+  <data key="d1">MultiplexStructs.h</data>
+  <data key="d2">0</data>
+  <data key="d3">22</data>
+  <data key="d177">0.4758735487923625</data>
+  <data key="d178">0.3188411329513052</data>
+  <data key="d179">0.2607336148046657</data>
+  <data key="d180">0.2572184489791398</data>
+  <data key="d181">0.25085969469978886</data>
+  <data key="d4">0.24869828989279086</data>
+  <data key="d10">15</data>
+  <data key="d11">0</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/multiplex/pattern/PatternManager.h">
+  <data key="d0">pica-master/multiplex/pattern/PatternManager.h</data>
+  <data key="d1">PatternManager.h</data>
+  <data key="d2">0</data>
+  <data key="d3">25</data>
+  <data key="d21">0.39621683441457234</data>
+  <data key="d7">0.31381794622848935</data>
+  <data key="d80">0.2760259861178763</data>
+  <data key="d182">0.2760259861178763</data>
+  <data key="d4">0.26290235428823094</data>
+  <data key="d82">0.2345293727104348</data>
+  <data key="d183">0.22678690737368104</data>
+  <data key="d10">7</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="set">
+  <data key="d1">set</data>
+  <data key="d10">7</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="MultiplexStructs.h">
+  <data key="d1">MultiplexStructs.h</data>
+  <data key="d10">7</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/multiplex/pattern/PatternManager.cpp">
+  <data key="d0">pica-master/multiplex/pattern/PatternManager.cpp</data>
+  <data key="d1">PatternManager.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">126</data>
+  <data key="d184">0.6010678933055323</data>
+  <data key="d4">0.3393067597335816</data>
+  <data key="d80">0.2671832757227115</data>
+  <data key="d10">0</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="PatternManager.h">
+  <data key="d1">PatternManager.h</data>
+  <data key="d10">0</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h">
+  <data key="d0">pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h</data>
+  <data key="d1">MultiplexUseTestAnalyzer.h</data>
+  <data key="d2">0</data>
+  <data key="d3">40</data>
+  <data key="d4">0.41531713493197114</data>
+  <data key="d185">0.3741853599263274</data>
+  <data key="d7">0.371812865666546</data>
+  <data key="d186">0.32703678718933876</data>
+  <data key="d181">0.21600902949757142</data>
+  <data key="d10">3</data>
+  <data key="d11">0</data>
+  <data key="d12">5</data>
+</node>
+<node id="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp">
+  <data key="d0">pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp</data>
+  <data key="d1">MultiplexUseTestAnalyzer.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">261</data>
+  <data key="d76">0.4717940163173784</data>
+  <data key="d187">0.28520806376404156</data>
+  <data key="d4">0.26874850664376876</data>
+  <data key="d10">5</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="MultiplexUseTestAnalyzer.h">
+  <data key="d1">MultiplexUseTestAnalyzer.h</data>
+  <data key="d10">5</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h">
+  <data key="d0">pica-master/multiplex/useTestAnalyzer/ExcelWriter.h</data>
+  <data key="d1">ExcelWriter.h</data>
+  <data key="d2">0</data>
+  <data key="d3">60</data>
+  <data key="d4">0.6217927323600809</data>
+  <data key="d7">0.2435388567508652</data>
+  <data key="d23">0.24264522908227237</data>
+  <data key="d125">0.24264522908227237</data>
+  <data key="d21">0.21963187810560997</data>
+  <data key="d10">4</data>
+  <data key="d11">0</data>
+  <data key="d12">6</data>
+</node>
+<node id="multiplex/algos/AlgoMultiplexConvolBrut.h">
+  <data key="d1">multiplex/algos/AlgoMultiplexConvolBrut.h</data>
+  <data key="d10">4</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<node id="pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp">
+  <data key="d0">pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp</data>
+  <data key="d1">ExcelWriter.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">140</data>
+  <data key="d145">0.621596050380485</data>
+  <data key="d125">0.5053922405704323</data>
+  <data key="d4">0.23068923675995368</data>
+  <data key="d188">0.23022075940017964</data>
+  <data key="d22">0.22945722191382198</data>
+  <data key="d10">4</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h">
+  <data key="d0">pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h</data>
+  <data key="d1">AlgoMultiplexConvolBrut.h</data>
+  <data key="d2">0</data>
+  <data key="d3">21</data>
+  <data key="d189">0.3462222240723609</data>
+  <data key="d190">0.3093124870362169</data>
+  <data key="d185">0.28312461184825966</data>
+  <data key="d181">0.2724027500000728</data>
+  <data key="d76">0.24883567124692552</data>
+  <data key="d124">0.22711603643823763</data>
+  <data key="d89">0.21450830318292638</data>
+  <data key="d10">5</data>
+  <data key="d11">0</data>
+  <data key="d12">2</data>
+</node>
+<node id="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp">
+  <data key="d0">pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp</data>
+  <data key="d1">AlgoMultiplexConvolBrut.cpp</data>
+  <data key="d2">0</data>
+  <data key="d3">58</data>
+  <data key="d181">0.40689033403794744</data>
+  <data key="d177">0.3920554341987096</data>
+  <data key="d189">0.2873083990609215</data>
+  <data key="d191">0.2717353623044978</data>
+  <data key="d192">0.2298467192487372</data>
+  <data key="d193">0.20380152172837332</data>
+  <data key="d194">0.20380152172837332</data>
+  <data key="d10">1</data>
+  <data key="d11">0</data>
+  <data key="d12">3</data>
+</node>
+<node id="AlgoMultiplexConvolBrut.h">
+  <data key="d1">AlgoMultiplexConvolBrut.h</data>
+  <data key="d10">1</data>
+  <data key="d11">1</data>
+  <data key="d12">0</data>
+</node>
+<edge source="pica-master/main_matlab.cpp" target="iostream"/>
+<edge source="pica-master/main_matlab.cpp" target="string"/>
+<edge source="pica-master/main_matlab.cpp" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/main_matlab.cpp" target="filesystem"/>
+<edge source="pica-master/main_matlab.cpp" target="OpenXLSX.hpp"/>
+<edge source="pica-master/main_matlab.cpp" target="fstream"/>
+<edge source="pica-master/main_matlab.cpp" target="regex"/>
+<edge source="pica-master/main_matlab.cpp" target="common/cropper/StripCropperRectangleDetection.h"/>
+<edge source="pica-master/main_matlab.cpp" target="common/fileProcessing/Parser.h"/>
+<edge source="pica-master/main_analyzeMultiplex.cpp" target="iostream"/>
+<edge source="pica-master/main_analyzeMultiplex.cpp" target="string"/>
+<edge source="pica-master/main_analyzeMultiplex.cpp" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/main_analyzeMultiplex.cpp" target="filesystem"/>
+<edge source="pica-master/main_analyzeMultiplex.cpp" target="multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h"/>
+<edge source="pica-master/main_massTest.cpp" target="iostream"/>
+<edge source="pica-master/main_massTest.cpp" target="string"/>
+<edge source="pica-master/main_massTest.cpp" target="filesystem"/>
+<edge source="pica-master/main_massTest.cpp" target="numeric"/>
+<edge source="pica-master/main_massTest.cpp" target="common/cropper/StripCropperRectangleDetection.h"/>
+<edge source="pica-master/main_massTest.cpp" target="GitVersion.h"/>
+<edge source="pica-master/main_massTest.cpp" target="monoplex/algos/AlgoExponantialFit.h"/>
+<edge source="pica-master/main_compileData.cpp" target="iostream"/>
+<edge source="pica-master/main_compileData.cpp" target="string"/>
+<edge source="pica-master/main_compileData.cpp" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/main_compileData.cpp" target="filesystem"/>
+<edge source="pica-master/main_compileData.cpp" target="OpenXLSX.hpp"/>
+<edge source="pica-master/main_compileData.cpp" target="fstream"/>
+<edge source="pica-master/main_compileData.cpp" target="regex"/>
+<edge source="pica-master/main_compileData.cpp" target="numeric"/>
+<edge source="pica-master/main_compileData.cpp" target="common/cropper/StripCropperRectangleDetection.h"/>
+<edge source="pica-master/main_compileData.cpp" target="monoplex/algos/CurveFitter.h"/>
+<edge source="pica-master/main_analyzeUseTest.cpp" target="monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h"/>
+<edge source="pica-master/main_analyzeUseTest.cpp" target="common/cropper/StripCropperRectangleDetection.h"/>
+<edge source="pica-master/GitVersion.h" target="string"/>
+<edge source="pica-master/tests/TestTools.h" target="string"/>
+<edge source="pica-master/tests/TestTools.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/TestTools.cpp" target="TestTools.h"/>
+<edge source="pica-master/tests/TestTools.cpp" target="filesystem"/>
+<edge source="pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestRemoveLinesOnProfile.cpp" target="tests/common/imageProcessing/resources/Profiles.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestFindControlLine.cpp" target="tests/common/imageProcessing/resources/Profiles.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/common/imageProcessing/TestComputeProfile.cpp" target="cmath"/>
+<edge source="pica-master/tests/common/imageProcessing/resources/Profiles.h" target="monoplex/algos/IImageProcessor.h"/>
+<edge source="pica-master/tests/common/fileProcessing/TestParser.cpp" target="filesystem"/>
+<edge source="pica-master/tests/common/fileProcessing/TestParser.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/common/fileProcessing/TestParser.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/common/fileProcessing/TestParser.cpp" target="common/fileProcessing/Parser.h"/>
+<edge source="pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp" target="common/cropper/StripCropperRectangleDetection.h"/>
+<edge source="pica-master/tests/common/cropper/TestCropperRectangleDetection.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" target="monoplex/algos/AlgoTestMinusProxNoise.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestTestMinusProxNoise.cpp" target="cmath"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" target="monoplex/algos/AlgoExponantialFit.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoExponantialFit.cpp" target="tests/common/imageProcessing/resources/Profiles.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" target="monoplex/algos/AlgoPoly2.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestAlgoPoly2.cpp" target="tests/common/imageProcessing/resources/Profiles.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestProxNoise.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/monoplex/algos/TestProxNoise.cpp" target="monoplex/algos/AlgoProxNoise.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestProxNoise.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestProxNoise.cpp" target="tests/common/imageProcessing/resources/Profiles.h"/>
+<edge source="pica-master/tests/monoplex/algos/TestProxNoise.cpp" target="cmath"/>
+<edge source="pica-master/tests/multiplex/pattern/TestPatternManager.cpp" target="filesystem"/>
+<edge source="pica-master/tests/multiplex/pattern/TestPatternManager.cpp" target="catch2/catch.hpp"/>
+<edge source="pica-master/tests/multiplex/pattern/TestPatternManager.cpp" target="tests/multiplex/pattern/resources/DataToTest.h"/>
+<edge source="pica-master/tests/multiplex/pattern/TestPatternManager.cpp" target="tests/TestTools.h"/>
+<edge source="pica-master/tests/multiplex/pattern/resources/DataToTest.h" target="multiplex/pattern/PatternManager.h"/>
+<edge source="pica-master/common/imageProcessing/ImagePreProcessing.cpp" target="ImagePreProcessing.h"/>
+<edge source="pica-master/common/imageProcessing/ImagePreProcessing.cpp" target="ImageAnalyzer.h"/>
+<edge source="pica-master/common/imageProcessing/ImagePreProcessing.h" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/common/imageProcessing/ImagePreProcessing.h" target="ImageAnalyzer.h"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.h" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.h" target="filesystem"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.h" target="fstream"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.cpp" target="ImageAnalyzer.h"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.cpp" target="numeric"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.cpp" target="filesystem"/>
+<edge source="pica-master/common/imageProcessing/ImageAnalyzer.cpp" target="opencv2/plot.hpp"/>
+<edge source="pica-master/common/fileProcessing/Parser.h" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/common/fileProcessing/Parser.h" target="filesystem"/>
+<edge source="pica-master/common/fileProcessing/Parser.cpp" target="iostream"/>
+<edge source="pica-master/common/fileProcessing/Parser.cpp" target="fstream"/>
+<edge source="pica-master/common/fileProcessing/Parser.cpp" target="Poco/JSON/JSON.h"/>
+<edge source="pica-master/common/fileProcessing/Parser.cpp" target="Poco/JSON/Parser.h"/>
+<edge source="pica-master/common/fileProcessing/Parser.cpp" target="Parser.h"/>
+<edge source="pica-master/common/cropper/CassetteType.cpp" target="CassetteType.h"/>
+<edge source="pica-master/common/cropper/CropperStructsAndData.h" target="CassetteType.h"/>
+<edge source="pica-master/common/cropper/CassetteType.h" target="map"/>
+<edge source="pica-master/common/cropper/CassetteType.h" target="string"/>
+<edge source="pica-master/common/cropper/CassetteType.h" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/common/cropper/StripCropperRectangleDetection.h" target="opencv2/imgcodecs.hpp"/>
+<edge source="pica-master/common/cropper/StripCropperRectangleDetection.h" target="opencv2/imgproc.hpp"/>
+<edge source="pica-master/common/cropper/StripCropperRectangleDetection.h" target="CropperStructsAndData.h"/>
+<edge source="pica-master/common/cropper/StripCropperRectangleDetection.cpp" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/common/cropper/StripCropperRectangleDetection.cpp" target="numeric"/>
+<edge source="pica-master/common/cropper/StripCropperRectangleDetection.cpp" target="StripCropperRectangleDetection.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h" target="AnalyzeUseTestStructs.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.h" target="ExcelWriter.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp" target="numeric"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.cpp" target="RegulatoryDataManager.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h" target="vector"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h" target="map"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.h" target="ExcelWriter.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" target="climits"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" target="OpenXLSX.hpp"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" target="AnalyzeUseTestStructs.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.h" target="ROCCurveManager.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.cpp" target="ProxNoiseGrids.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/RegulatoryDataManager.h" target="ExcelWriter.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp" target="ROCCurveManager.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp" target="monoplex/algos/IImageProcessor.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ROCCurveManager.cpp" target="algorithm"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" target="string"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" target="vector"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" target="filesystem"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/AnalyzeUseTestStructs.h" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" target="numeric"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" target="ExcelWriter.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" target="monoplex/algos/AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ProxNoiseGrids.h" target="monoplex/algos/AlgoTestMinusProxNoise.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" target="MonoplexUseTestAnalyzer.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" target="ConcentrationPredictor.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" target="common/imageProcessing/ImagePreProcessing.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" target="ProxNoiseGrids.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.cpp" target="RegulatoryDataManager.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="iostream"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="string"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="vector"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="filesystem"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="ExcelWriter.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="monoplex/algos/AlgoExponantialFit.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="monoplex/algos/AlgoTestMinusProxNoise.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/MonoplexUseTestAnalyzer.h" target="monoplex/algos/AlgoPoly2.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="numeric"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="ConcentrationPredictor.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="monoplex/algos/CurveFitter.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="monoplex/algos/AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="monoplex/algos/AlgoExponantialFit.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="monoplex/algos/AlgoPoly2.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ConcentrationPredictor.cpp" target="monoplex/algos/AlgoTestMinusProxNoise.h"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" target="filesystem"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" target="cmath"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" target="OpenXLSX.hpp"/>
+<edge source="pica-master/monoplex/useTestAnalyzer/ExcelWriter.cpp" target="ExcelWriter.h"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="AlgoTestMinusProxNoise.h"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="CurveFitter.h"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="common/fileProcessing/Parser.h"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="numeric"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="tuple"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.cpp" target="limits"/>
+<edge source="pica-master/monoplex/algos/AlgoExponantialFit.h" target="AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/algos/AlgoExponantialFit.cpp" target="AlgoExponantialFit.h"/>
+<edge source="pica-master/monoplex/algos/AlgoExponantialFit.cpp" target="CurveFitter.h"/>
+<edge source="pica-master/monoplex/algos/CurveFitter.h" target="functional"/>
+<edge source="pica-master/monoplex/algos/CurveFitter.h" target="vector"/>
+<edge source="pica-master/monoplex/algos/CurveFitter.h" target="IImageProcessor.h"/>
+<edge source="pica-master/monoplex/algos/CurveFitter.cpp" target="ceres/ceres.h"/>
+<edge source="pica-master/monoplex/algos/CurveFitter.cpp" target="CurveFitter.h"/>
+<edge source="pica-master/monoplex/algos/AlgoPoly2.h" target="AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/algos/AlgoPoly2.cpp" target="AlgoPoly2.h"/>
+<edge source="pica-master/monoplex/algos/AlgoPoly2.cpp" target="CurveFitter.h"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.h" target="IImageProcessor.h"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.h" target="cstdint"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.h" target="IImageProcessor.h"/>
+<edge source="pica-master/monoplex/algos/AlgoTestMinusProxNoise.h" target="cstdint"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.h" target="vector"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.h" target="cstdint"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.h" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.h" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="limits"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="tuple"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="IImageProcessor.h"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="CurveFitter.h"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="common/fileProcessing/Parser.h"/>
+<edge source="pica-master/monoplex/algos/IImageProcessor.cpp" target="common/imageProcessing/ImagePreProcessing.h"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.cpp" target="AlgoProxNoise.h"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.cpp" target="CurveFitter.h"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.cpp" target="numeric"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.cpp" target="tuple"/>
+<edge source="pica-master/monoplex/algos/AlgoProxNoise.cpp" target="limits"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.h" target="map"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.h" target="set"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.h" target="opencv2/opencv.hpp"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.h" target="filesystem"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.h" target="MultiplexStructs.h"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.cpp" target="iostream"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.cpp" target="filesystem"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.cpp" target="common/fileProcessing/Parser.h"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.cpp" target="PatternManager.h"/>
+<edge source="pica-master/multiplex/pattern/PatternManager.cpp" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" target="iostream"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" target="string"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" target="vector"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" target="filesystem"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.h" target="ExcelWriter.h"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp" target="MultiplexUseTestAnalyzer.h"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/MultiplexUseTestAnalyzer.cpp" target="common/imageProcessing/ImagePreProcessing.h"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" target="vector"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" target="filesystem"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" target="climits"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" target="OpenXLSX.hpp"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" target="common/imageProcessing/ImageAnalyzer.h"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.h" target="multiplex/algos/AlgoMultiplexConvolBrut.h"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp" target="filesystem"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp" target="OpenXLSX.hpp"/>
+<edge source="pica-master/multiplex/useTestAnalyzer/ExcelWriter.cpp" target="ExcelWriter.h"/>
+<edge source="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h" target="multiplex/pattern/PatternManager.h"/>
+<edge source="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.h" target="common/imageProcessing/ImagePreProcessing.h"/>
+<edge source="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp" target="numeric"/>
+<edge source="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp" target="AlgoMultiplexConvolBrut.h"/>
+<edge source="pica-master/multiplex/algos/AlgoMultiplexConvolBrut.cpp" target="common/imageProcessing/ImageAnalyzer.h"/>
+</graph></graphml>

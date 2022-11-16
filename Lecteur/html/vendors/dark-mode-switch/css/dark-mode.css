@@ -1,0 +1,84 @@
+[data-theme="dark"] {
+    background-color: #00040a !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #141414 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #000000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #eeeeee !important;
+}
+
+[data-theme="dark"] .card {
+    background-color: #0e0e0e !important;
+    outline: 2px solid #121212;
+}
+
+[data-theme="dark"] .jumbotron {
+    background-color: #00040a !important;
+}
+
+[data-theme="dark"] .list-group-item {
+    background-color: #0e0e0e !important;
+}
+
+[data-theme="dark"] .card-header {
+    background-color: #121212 !important;
+}
+
+[data-theme="dark"] .tooltip table tbody tr td {
+    background-color: #121212 !important;
+}
+
+[data-theme="dark"] .modal-title {
+    color: #eee;
+}
+
+[data-theme="dark"] .modal-body table {
+    color: #eee;
+}
+
+[data-theme="dark"] .node text {
+    fill: #ffffff;
+}
+
+[data-theme="dark"] .canvas-content-dark-mode-node-label {
+    color: #ffffff;
+}
+
+[data-theme="dark"] #dropdown-apply-metric {
+    background-color: #121212 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] #dropdown-graph {
+    background-color: #121212 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .dropdown-item {
+    background-color: #121212 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .modal-content {
+    background-color: #111111 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .tooltip-inner {
+    background-color: black !important;
+    font-size: smaller;
+}
+
+[data-theme="dark"] .tooltip-inner {
+    background-color: black !important;
+    color: white;
+    font-size: smaller;
+}
