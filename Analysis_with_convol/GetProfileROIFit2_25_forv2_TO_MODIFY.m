@@ -1,7 +1,14 @@
 % - check max in upper part rather than manual for control strip
 % - DO NOT MODIFY THIS FILE - we keep it as a reference, modify the TO MODIFY version
-% - Default parameters are : RGB, EXCLUDE TOO LARGE BANDS, Eu NANOPARTICLES, NUMBER OF GAINS=1, SIMPLEX, DEFAULT VALUES FOR GAIN
-
+%{
+Default parameters are : RGB, EXCLUDE TOO LARGE BANDS, Eu NANOPARTICLES, NUMBER OF GAINS=1, SIMPLEX, DEFAULT VALUES FOR GAIN
+choice == 4
+choice2 == 1
+choice3 == 1
+choice4 == 1
+choice5 == 1
+and use default values for gains
+%}
 
 function Resu = GetProfileROIFit2_Color()
 
@@ -27,6 +34,9 @@ clc;
 % Convolution Gaussian variance SDist = 350;
 % Test - control distance delta2 = 1;%increment for the second ROI vertical position
 %}
+SDist = 350;
+N2 = 130;
+delta2 = 1;
 delta3=1;%increment for the third ROI vertical position 
 fw=round(sqrt(N2))*5;
 bw = 50;
@@ -40,17 +50,20 @@ M = 255;
           choice = menu('Choose a color', 'Red', 'Green', 'Blue', 'RGB');
 
 Col = 'NB';
-if choice
-  == 1 Col = 'R';
-end if choice == 2 Col = 'G';
-end if choice == 3 Col = 'B';
-end if choice == 4 Col = 'RGB';
-end Nc = choice;
+if choice== 1 Col = 'R';
+end 
+if choice == 2 Col = 'G';
+end 
+if choice == 3 Col = 'B';
+end 
+if choice == 4 Col = 'RGB';
+end 
+Nc = choice;
 
-% Default to yes(otherwise maybe implement gaussian) choice2 =
-    menu('Do you want to exlude too large bands ?', 'Yes', 'No');
-if choice2
-  == 1 WTH = 3;
+% Default to yes(otherwise maybe implement gaussian) 
+choice2 = menu('Do you want to exlude too large bands ?', 'Yes', 'No');
+if choice2 == 1 
+    WTH = 3;
 else
   WTH = 10000;
 end
@@ -78,7 +91,7 @@ answer2 = str2double(answer{2});
 end
 
     % Image oppening %
-    -------------------------------------------------------------------------
+    %-------------------------------------------------------------------------
 
     % Image folder : gain 1 [fn1 pn1] = uigetfile('*.png');
 pn1 = pn1(1 : length(pn1) - 1);
@@ -91,17 +104,18 @@ pause on;
 pn = pn1(1 : length(pn1) - 2);
 cd(pn);
 
-% Image folder : gain 2 if (choice4 == 2)[fn2 pn2] = uigetfile('*.png');
+% Image folder : gain 2 
+if (choice4 == 2)
+[fn2 pn2] = uigetfile('*.png');
 pn2 = pn2(1 : length(pn2) - 1);
 cd(pn2);
 a2 = dir('*.png');
 warning off;
 pause on;
 end
+% Creation of the.txt file
 
-    % Creation of the.txt file
-
-          cd(pn);
+cd(pn);
 if (choice5 == 1)
   Title = [
     'Name',    ';', 'T1',     ';', 'C',     ';', 'BG_T1',    ';',
