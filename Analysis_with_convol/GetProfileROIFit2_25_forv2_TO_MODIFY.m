@@ -8,8 +8,9 @@ function Resu = GetProfileROIFit2_Color()
     clear all;
 close all;
 clc;
-
+%{
 % % % % % % % % % % % % % % % % %
+
     AJUSTER LA VALEUR DE SDist ET DES DELTA POUR CHAQUE LOT DE BANDELETTES
 
     % ----------Notation
@@ -24,7 +25,8 @@ clc;
     : Modifier les valeurs si besoin !! %
       ----------------------------------------------------N2 = 130;
 % Convolution Gaussian variance SDist = 350;
-% Test - control distance delta2 = 1;%increment for the second ROI vertical position 
+% Test - control distance delta2 = 1;%increment for the second ROI vertical position
+%}
 delta3=1;%increment for the third ROI vertical position 
 fw=round(sqrt(N2))*5;
 bw = 50;
