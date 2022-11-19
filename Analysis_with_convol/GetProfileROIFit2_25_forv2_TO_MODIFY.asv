@@ -46,9 +46,18 @@ M = 255;
 % ----------------------------------------------------
 
 Col = 'RGB';
+choice = 4; % Bogdana: these 2 lines
+Nc = choice; % might be unnecessary
 
 % Default to "exlude too large bands" (otherwise maybe implement gaussian) 
 WTH = 3;
+
+
+    choice3 = menu('Nanoparticle type ?', 'Eu', 'Au');
+
+choice4 = menu('Number of gains ?', '1', '2');
+
+choice5 = menu('Type of assay ?', 'Simplex', 'Multiplex');
 
 % Number of gains = 1
 prompt = {'Gain'};
@@ -160,8 +169,70 @@ I1_C=A1(yc-fw:yc+fw,xc-bw:xc+bw);
 pause(0.7);
 %-------------------------------------------------------------------------
 
+% Image gain 2 -----------------------------------------------------------
 
-% Bogdana modified up to here
+if (choice4==2)
+
+    % Image parameters : image 2
+    m2=min(min(A2));
+    M2=max(max(A2));
+    S2=size(A2);
+    h2=S2(1);
+    w2=S2(2);
+    
+    
+    %Display image 1
+    imshow(A2,[m2 M2]);
+    
+    
+    % Control selection : click in the middle of the control band
+    fh=gcf;
+    k = waitforbuttonpress;
+    point2 = get(gca, 'CurrentPoint');
+    ca=point2(1,1);
+    f=point2(1,2);
+    
+    % ------------------------ Bogdana modifies up to here
+    % Point selection
+    Xc=ca;
+    Yc=f;
+    X1=Xc;
+    Y1=Yc+SDist;
+    
+    rectangle('Position',[Xc-bw,Yc-fw,bw*2,2*fw],'EdgeColor','g')
+    rectangle('Position',[X1-bw,Y1-fw,bw*2,2*fw],'EdgeColor','r')
+    
+    
+    % Replacement of the ROI if it exceeds the initial image
+    Y1=min(max(Y1,fw+1),h2-fw);
+    Yc=min(max(Yc,fw+1),h2-fw);
+    
+    
+    %Pixel selection and treatment
+    I2_T1=A2(Y1-fw:Y1+fw,X1-bw:X1+bw);
+    ROIvalue2_1=sum(sum(I2_T1));
+    I2_C=A2(Yc-fw:Yc+fw,Xc-bw:Xc+bw);
+    
+    if (choice5==2)
+        X2=Xc;
+        Y2=Y1+SDist+delta2;
+        X3=Xc;
+        Y3=Y2+SDist+delta3;
+        rectangle('Position',[X2-bw,Y2-fw,bw*2,2*fw],'EdgeColor','b')
+        rectangle('Position',[X3-bw,Y3-fw,bw*2,2*fw],'EdgeColor','y')
+        Y2=min(max(Y2,fw+1),h2-fw);
+        Y3=min(max(Y3,fw+1),h2-fw);
+        I2_T2=A2(Y2-fw:Y2+fw,X2-bw:X2+bw);
+        ROIvalue2_2=sum(sum(I2_T2));
+        I2_T3=A2(Y3-fw:Y3+fw,X3-bw:X3+bw);
+        ROIvalue2_3=sum(sum(I2_T3));
+    end
+    
+    pause(0.5);
+
+end
+%-------------------------------------------------------------------------
+
 
 % Image selection
 
