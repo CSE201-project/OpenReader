@@ -248,7 +248,7 @@ if (choice4==2)
     ca=point2(1,1);
     f=point2(1,2);
     
-    
+    % ------------------------ Bogdana modifies up to here
     % Point selection
     Xc=ca;
     Yc=f;
@@ -525,7 +525,7 @@ xlim([0 round(Px(length(Px))/10)*10]);
 xlabel('Position (pixel)');
 ylabel('Intensity (a.u.)');
 title(['\fontsize{16}Test Band Profile n�1 - ' Title_T1]);
-
+% ------------------------- Romain modifies up to here
 subplot(2,3,3);
 if (choice5==2)
     Title_T2=['Gain ' G2];
