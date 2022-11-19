@@ -160,70 +160,16 @@ I1_C=A1(yc-fw:yc+fw,xc-bw:xc+bw);
 pause(0.7);
 %-------------------------------------------------------------------------
 
-
 % Bogdana modified up to here
 
 % Image selection
 
-
-if (choice4==2)
-    if ROIvalue1_1<limLIN
-        I_T1_Raw=I1_T1;
-        Gain1=answer1;
-        ROIvalue_1=ROIvalue1_1;
-    else
-        I_T1_Raw=I2_T1;
-        Gain1=answer2;
-        ROIvalue_1=ROIvalue1_1; %% Attention
-    end
-    
-    I_T1=ConvolIm(I_T1_Raw,N2);
-    
-    if (choice5==2)
-        if ROIvalue1_2<limLIN
-            I_T2_Raw=I1_T2;
-            Gain2=answer1;
-            ROIvalue_2=ROIvalue1_2;
-        else
-            I_T2_Raw=I2_T2;
-            Gain2=answer2;
-            ROIvalue_2=ROIvalue1_2; %% Attention
-        end
-        if ROIvalue1_3<limLIN
-            I_T3_Raw=I1_T3;
-            Gain3=answer1;
-            ROIvalue_3=ROIvalue1_3;
-        else
-            I_T3_Raw=I2_T3;
-            Gain3=answer2;
-            ROIvalue_3=ROIvalue1_3; %% Attention
-        end
-        
-        I_T2=ConvolIm(I_T2_Raw,N2);
-        I_T3=ConvolIm(I_T3_Raw,N2);
-    end
-    I_C_Raw=I1_C;
+I_T1_Raw=I1_T1;
+Gain1=answer1;
+ROIvalue_1=ROIvalue1_1;  
+I_T1=ConvolIm(I_T1_Raw,N2);
+I_C_Raw=I1_C;
 I_C=ConvolIm(I_C_Raw,N2);
-else
-    I_T1_Raw=I1_T1;
-    Gain1=answer1;
-    ROIvalue_1=ROIvalue1_1;  
-    I_T1=ConvolIm(I_T1_Raw,N2);
-    
-    if (choice5==2)
-        I_T2_Raw=I1_T2;
-        Gain2=answer1;
-        ROIvalue_2=ROIvalue1_2;
-        I_T2=ConvolIm(I_T2_Raw,N2);
-        I_T3_Raw=I1_T3;
-        Gain3=answer1;
-        ROIvalue_3=ROIvalue1_3;    
-        I_T3=ConvolIm(I_T3_Raw,N2);
-    end  
-    I_C_Raw=I1_C;
-I_C=ConvolIm(I_C_Raw,N2);
-end
-
 I_C_Raw=I1_C;
 I_C=ConvolIm(I_C_Raw,N2);
 
@@ -236,27 +182,9 @@ Profil_T1_Raw=sum(I_T1_Raw');
 Profil_C=sum(I_C');
 Profil_C_Raw=sum(I_C_Raw');
 
-if (choice5==2)
-    Profil_T2=sum(I_T2');
-    Profil_T2_Raw=sum(I_T2_Raw');
-    Profil_T3=sum(I_T3');
-    Profil_T3_Raw=sum(I_T3_Raw');
-end
-
 
 % Profile inversion of images with gold Nps
-if (choice3==2)
-    Profil_T1=max(Profil_T1)-Profil_T1;
-    Profil_T1_Raw=max(Profil_T1_Raw)-Profil_T1_Raw;
-    Profil_C=max(Profil_C)-Profil_C;
-    Profil_C_Raw=max(Profil_C_Raw)-Profil_C_Raw;
-    if (choice==5)
-            Profil_T2=max(Profil_T2)-Profil_T2;
-            Profil_T2_Raw=max(Profil_T2_Raw)-Profil_T2_Raw;
-            Profil_T3=max(Profil_T3)-Profil_T3;
-            Profil_T3_Raw=max(Profil_T3_Raw)-Profil_T3_Raw;
-    end
-end
+% removed as we use Eu Nps
 
 
 % Parameters for normalization
@@ -283,7 +211,7 @@ d_T1=(Profil_T1(lx-10)-Profil_T1(10))/(M_T1*(lx-20));
 d_C=(Profil_C(lx-10)-Profil_C(10))/(M_C*(lx-20));
 
 
-% tronquage avant fit
+% truncature before fit
 Profil_T1_trunc=Profil_T1(:,11:100);
 Profil_C_trunc=Profil_C(:,11:100);
 Px_trunc=Px(:,11:100);
@@ -294,7 +222,7 @@ beta0_T1=[bg_T1 d_T1 1 posM_T1 sqrt(2*N2) ];
 beta0_C=[bg_C d_C 1 posM_C sqrt(2*N2) ];
 
 
-% Fit sans contraintes
+% Fit without constraint
 GaussTrend = @(par,x)  par(1) + (x-10)*par(2) + par(3)*exp(-((x-par(4)).^2)/par(5)^2); 
 
 [beta_T1 r_T1 J_T1]=nlinfit(Px_trunc,Profil_T1_trunc/M_T1,GaussTrend,beta0_T1);
@@ -326,65 +254,19 @@ betaBG_C(3)=0;
 BGx_T1=M_T1*GaussTrend(betaBG_T1,Px)+m_T1;
 BGx_C=M_C*GaussTrend(betaBG_C,Px)+m_C;
 
-if (choice5==2)
-    m_T2=min(Profil_T2);
-    Profil_T2=Profil_T2-m_T2;
-    M_T2=max(Profil_T2);
-    m_T3=min(Profil_T3);
-    Profil_T3=Profil_T3-m_T3;
-    M_T3=max(Profil_T3);
-    posM_T2=min(find(Profil_T2==M_T2));
-    posM_T3=min(find(Profil_T3==M_T3));
-    bg_T2=mean(Profil_T2(1:5))/M_T2;
-    bg_T3=mean(Profil_T3(1:5))/M_T3;
-    d_T2=(Profil_T2(lx-5)-Profil_T2(5))/(M_T2*(lx-10));
-    d_T3=(Profil_T3(lx-5)-Profil_T3(5))/(M_T3*(lx-10));
-    Profil_T2_trunc=Profil_T2(:,6:26);
-    Profil_T3_trunc=Profil_T3(:,6:26);
-    beta0_T2=[bg_T2 d_T2 1 posM_T2 sqrt(2*N2) ];
-    beta0_T3=[bg_T3 d_T3 1 posM_T3 sqrt(2*N2) ];
-    [beta_T2 r_T2 J_T2]=nlinfit(Px_trunc,Profil_T2_trunc/M_T2,GaussTrend,beta0_T2);
-    [beta_T3 r_T3 J_T3]=nlinfit(Px_trunc,Profil_T3_trunc/M_T3,GaussTrend,beta0_T3);
-    fit_T2=M_T2*GaussTrend(beta_T2,Px)+m_T2;
-    fit_T3=M_T3*GaussTrend(beta_T3,Px)+m_T3;
-    MR_T2=sum(r_T2.^2);
-    MR_T3=sum(r_T3.^2);
-    D_T2=sum((Profil_T2/M_T2-mean(Profil_T2/M_T2)).^2);
-    D_T3=sum((Profil_T3/M_T3-mean(Profil_T3/M_T3)).^2);
-    R2_T2=1-MR_T2/D_T2;
-    R2_T3=1-MR_T3/D_T3;
-    betaBG_T2=beta_T2;
-    betaBG_T2(3)=0;
-    betaBG_T3=beta_T3;
-    betaBG_T3(3)=0;
-    BGx_T2=M_T2*GaussTrend(betaBG_T2,Px)+m_T2;
-    BGx_T3=M_T3*GaussTrend(betaBG_T3,Px)+m_T3;
-end
 
 %Display image and fits 
 
 ii=num2str(i);
 NN=num2str(N1);
 G1=num2str(Gain1);
-if (choice5==2)
-    G2=num2str(Gain2);
-    G3=num2str(Gain3);
-end
 gain1=num2str(answer1);
-if (choice4==2)
-    gain2=num2str(answer2);
-end
-
 Title_Im=['Image' ' ' ii '/' NN ' - Gain ' gain1 ];
 subplot(2,3,1);
 set(gcf, 'Units', 'Normalized', 'OuterPosition', [0.25, 0.25, 0.75, 0.75]);
 imshow(A1,[m M],'InitialMagnification',200);
 rectangle('Position',[xc-bw,yc-fw,bw*2,2*fw],'EdgeColor','g')
 rectangle('Position',[x1-bw,y1-fw,bw*2,2*fw],'EdgeColor','r')
-if (choice5==2)
-    rectangle('Position',[x2-bw,y2-fw,bw*2,2*fw],'EdgeColor','b')
-    rectangle('Position',[x3-bw,y3-fw,bw*2,2*fw],'EdgeColor','y')
-end
 title(['\fontsize{16}' Title_Im]);
 
 subplot(2,3,2);
