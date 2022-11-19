@@ -93,7 +93,8 @@ end
     % Image oppening %
     %-------------------------------------------------------------------------
 
-    % Image folder : gain 1 [fn1 pn1] = uigetfile('*.png');
+    % Image folder : gain 1 
+[fn1 pn1] = uigetfile('*.png');
 pn1 = pn1(1 : length(pn1) - 1);
 cd(pn1);
 a1 = dir('*.png');
@@ -101,8 +102,8 @@ N1 = numel(a1);
 warning off;
 pause on;
 
-pn = pn1(1 : length(pn1) - 2);
-cd(pn);
+pn = pn1(1 : length(pn1) - 2);% ROMAIN: SEEMS NOT TO WORK
+cd(pn); 
 
 % Image folder : gain 2 
 if (choice4 == 2)
