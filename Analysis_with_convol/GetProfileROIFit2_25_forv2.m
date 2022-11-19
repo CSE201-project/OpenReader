@@ -1,5 +1,6 @@
-% - exclude large bands as default
 % - check max in upper part rather than manual for control strip
+% - DO NOT MODIFY THIS FILE - we keep it as a reference, modify the TO MODIFY version
+% - Default parameters are : RGB, EXCLUDE TOO LARGE BANDS, Eu NANOPARTICLES, NUMBER OF GAINS=1, SIMPLEX, DEFAULT VALUES FOR GAIN
 
 
 function Resu = GetProfileROIFit2_Color()
