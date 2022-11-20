@@ -36,3 +36,6 @@
 
 # MATLAB automatic savefiles
 *.asv
+
+# Apple specific
+*.DS_Store

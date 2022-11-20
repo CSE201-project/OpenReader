@@ -51,12 +51,6 @@ Col = 'RGB';
 WTH = 3;
 
 % Number of gains = 1
-prompt = {'Gain'};
-dlg_title = 'Gain des images';
-num_lines = 1;
-defaultans = {'100'};
-answer = inputdlg(prompt, dlg_title, num_lines, defaultans);
-answer1 = str2double(answer{1});
 
     % Image oppening %
     %-------------------------------------------------------------------------
@@ -165,7 +159,7 @@ pause(0.7);
 % Image selection
 
 I_T1_Raw=I1_T1;
-Gain1=answer1;
+Gain1=1;
 ROIvalue_1=ROIvalue1_1;  
 I_T1=ConvolIm(I_T1_Raw,N2);
 I_C_Raw=I1_C;
@@ -260,7 +254,7 @@ BGx_C=M_C*GaussTrend(betaBG_C,Px)+m_C;
 ii=num2str(i);
 NN=num2str(N1);
 G1=num2str(Gain1);
-gain1=num2str(answer1);
+gain1=num2str(1);
 Title_Im=['Image' ' ' ii '/' NN ' - Gain ' gain1 ];
 subplot(2,3,1);
 set(gcf, 'Units', 'Normalized', 'OuterPosition', [0.25, 0.25, 0.75, 0.75]);
