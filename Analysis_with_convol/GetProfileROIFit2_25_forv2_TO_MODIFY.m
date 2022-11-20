@@ -282,69 +282,21 @@ ylabel('Intensity (a.u.)');
 title(['\fontsize{16}Test Band Profile n�1 - ' Title_T1]);
 % ------------------------- Romain modifies up to here
 subplot(2,3,3);
-if (choice5==2)
-    Title_T2=['Gain ' G2];
-    plot(Px,Profil_T2+m_T2,'+');
-    hold on
-    plot(Px,Profil_T2_Raw,'k');
-    plot(Px,fit_T2,'r');
-    plot(Px,BGx_T2,'g');
-    xlim([0 round(Px(length(Px))/10)*10]);
-    xlabel('Position (pixel)');
-    ylabel('Intensity (a.u.)');
-    title(['\fontsize{16}Test Band Profile n�2 - ' Title_T2]);
-else
-    plot(Px,Profil_C+m_C,'+');
-    hold on
-    plot(Px,fit_C,'r');
-    plot(Px,Profil_C_Raw,'k');
-    plot(Px,BGx_C,'g');
-    xlim([0 round(Px(length(Px))/10)*10]);
-    xlabel('Position (pixel)');
-    ylabel('Intensity (a.u.)');
-    title('\fontsize{16}Control Band Profile');
-end
-
-if (choice4==2)
-    subplot(2,3,4);
-    Title_Im=['Image' ' ' ii '/' NN ' - Gain ' gain2 ];
-    set(gcf, 'Units', 'Normalized', 'OuterPosition', [0.25, 0.25, 0.75, 0.75]);
-    imshow(A2,[m M],'InitialMagnification',200);
-    rectangle('Position',[Xc-bw,Yc-fw,bw*2,2*fw],'EdgeColor','g')
-    rectangle('Position',[X1-bw,Y1-fw,bw*2,2*fw],'EdgeColor','r')
-    if (choice5==2)
-        rectangle('Position',[X2-bw,Y2-fw,bw*2,2*fw],'EdgeColor','b')
-        rectangle('Position',[X3-bw,Y3-fw,bw*2,2*fw],'EdgeColor','y')
-    end
-    title(['\fontsize{16}' Title_Im]);
-end
-
-if (choice5==2)
     
-    subplot(2,3,5);
-    Title_T3=['Gain ' G3];
-    plot(Px,Profil_T3+m_T3,'+');
-    hold on
-    plot(Px,Profil_T3_Raw,'k');
-    plot(Px,fit_T3,'r');
-    plot(Px,BGx_T3,'g');
-    xlim([0 round(Px(length(Px))/10)*10]);
-    xlabel('Position (pixel)');
-    ylabel('Intensity (a.u.)');
-    title(['\fontsize{16}Test Band Profile n�3 - ' Title_T3]);
-    
-    subplot(2,3,6);
-    plot(Px,Profil_C+m_C,'+');
-    hold on
-    plot(Px,fit_C,'r');
-    plot(Px,Profil_C_Raw,'k');
-    plot(Px,BGx_C,'g');
-    xlim([0 round(Px(length(Px))/10)*10]);
-    xlabel('Position (pixel)');
-    ylabel('Intensity (a.u.)');
-    title('\fontsize{16}Control Band Profile');
+%Choice5 !=2
+plot(Px,Profil_C+m_C,'+');
+hold on
+plot(Px,fit_C,'r');
+plot(Px,Profil_C_Raw,'k');
+plot(Px,BGx_C,'g');
+xlim([0 round(Px(length(Px))/10)*10]);
+xlabel('Position (pixel)');
+ylabel('Intensity (a.u.)');
+title('\fontsize{16}Control Band Profile');
 
-end
+
+
+
 
 %---Exclusion criterion based on the band width
 
@@ -381,42 +333,7 @@ if (beta_C(3)<0)
     C=0;
 end
 
-if (choice5==2)
-    W_T2=abs(beta_T2(5));
-    W_T3=abs(beta_T3(5));
-    
-    if W_T2>WTH*sqrt(N2)
-        Si_2=0;
-    else
-        Si_2=(beta_T2(3))*max(Profil_T2)*W_T2;
-    end
-    if W_T3>WTH*sqrt(N2)
-        Si_3=0;
-    else
-        Si_3=(beta_T3(3))*max(Profil_T3)*W_T3;
-    end
-    
-    if (round(beta_T2(4))>0 && round(beta_T2(4))<length(BGx_T2))
-        Bg_T2=BGx_T2(round(beta_T2(4)))*W_T2;
-    else
-        round(length(BGx_T2)/2)
-        Bg_T2=BGx_T2(round(length(BGx_T2)/2))*W_T2;
-    end
-    if (round(beta_T3(4))>0 && round(beta_T3(4))<length(BGx_T3))
-        Bg_T3=BGx_T3(round(beta_T3(4)))*W_T3;
-    else
-        round(length(BGx_T3)/2)
-        Bg_T3=BGx_T3(round(length(BGx_T3)/2))*W_T3;
-    end
-    
-    if (beta_T2(3)<0)
-        Si_2=0;
-    end
-    if (beta_T3(3)<0)
-        Si_3=0;
-    end
-    
-end
+
 
 close all;
 
@@ -442,23 +359,7 @@ Res(i).N_gain1=Gain1;
 Res(i).ROI1=ROIvalue_1;
 
 
-if choice5==2
 
-    Res(i).Test2=Si_2;
-    Res(i).Test3=Si_3;
-    Res(i).BG_T2=Bg_T2;
-    Res(i).BG_T3=Bg_T3;
-    Res(i).R2_T=R2_T2;
-    Res(i).R2_T=R2_T3;
-    Res(i).WidthT2=W_T2;
-    Res(i).WidthT3=W_T3;
-    Res(i).T_BG_T2=Si_2/Bg_T2;
-    Res(i).T_BG_T3=Si_3/Bg_T3;
-    Res(i).N_gain2=Gain2;
-    Res(i).N_gain3=Gain3;
-    Res(i).ROI2=ROIvalue_2;
-    Res(i).ROI3=ROIvalue_3;
-end
 
 
 NomA=[NomA, Nom1, ' '];
@@ -467,72 +368,37 @@ fprintf(fileID,Nom1);
 
 fprintf(fileID,';');
 fprintf(fileID,'%d',Si_1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Si_2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Si_3);
-end
+
 fprintf(fileID,';');
 fprintf(fileID,'%d',C);
 
 fprintf(fileID,';');
 fprintf(fileID,'%d',Bg_T1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Bg_T2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Bg_T3);
-end
+
 fprintf(fileID,';');
 fprintf(fileID,'%d',Bg_C);
 
 fprintf(fileID,';');
 fprintf(fileID,'%d',R2_T1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',R2_T2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',R2_T3);
-end
+
 fprintf(fileID,';');
 fprintf(fileID,'%d',R2_C);
 
 fprintf(fileID,';');
 fprintf(fileID,'%d',W_T1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',W_T2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',W_T3);
-end
+
 fprintf(fileID,';');
 fprintf(fileID,'%d',W_C);
 
 fprintf(fileID,';');
 fprintf(fileID,'%d',Si_1/Bg_T1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Si_2/Bg_T2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Si_3/Bg_T3);
-end
+
 fprintf(fileID,';');
 fprintf(fileID,'%d',Gain1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Gain2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',Gain3);
-end
+
 fprintf(fileID,';');
 fprintf(fileID,'%d',ROIvalue_1);
-if choice5==2
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',ROIvalue_2);
-    fprintf(fileID,';');
-    fprintf(fileID,'%d',ROIvalue_3);
-end
+
 
 fprintf(fileID,'\r\n');
 
