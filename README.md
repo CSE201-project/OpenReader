@@ -20,15 +20,15 @@ The results are then sent to a mobile app, coded in javascript. A desktop app al
 Once the test is put in the Reader's drawer, a picture is taken. The reader needs to choose the right parameters of exposition time not to saturate the image. Some maintenance and security checks also need to be implemented in the reader's code. For example, if the drawer is open, the UV lights used by the reader to make the particles of the test fluorescent should be turned off for the safety of the user.
 
 ### What we have to do
-
+  
 #### MatLab code
-A first already working version of the Image analysis code has been implemented in MatLab. 
-As preliminary work, we first need to fix the MatLab code to make run on simple inputs. 
-We then need to translate it to C++ to be able to run it on the reader and make the code faster (for the moment, the running time of the algorithm in MatLab is too long for practical use).
-Once the algorithm is coded in C++, we can further improve it.
-
+A first already working version of the Image analysis code has been implemented in MatLab.  
+- As preliminary work, we first need to fix the MatLab code to make run on simple inputs.  
+- We then need to translate it to C++ to be able to run it on the reader and make the code faster (for the moment, the running time of the algorithm in MatLab is too long for practical use).  
+- Once the algorithm is coded in C++, we can further improve it.  
+  
 #### The reader
-We need to make the algorithm work on the reader's chip, which is very different from running the code on a computer.
-We need to implement maintenance and security checks.
-We need to communicate the Image analysis' result to the mobile app.
-We need to control the reader's camera.
+- We need to make the algorithm work on the reader's chip, which is very different from running the code on a computer.  
+- We need to implement maintenance and security checks.  
+- We need to communicate the Image analysis' result to the mobile app.  
+- We need to control the reader's camera.  
