@@ -31,4 +31,8 @@
 *.out
 *.app
 
+# VSCode cache
 .vscode/
+
+# MATLAB automatic savefiles
+*.asv
