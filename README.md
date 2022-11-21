@@ -24,8 +24,8 @@ Once the test is put in the Reader's drawer, a picture is taken. The reader need
 #### MatLab code
 A first already working version of the Image analysis code has been implemented in MatLab.  
 - As preliminary work, we first need to fix the MatLab code to make run on simple inputs.  
-- We then need to translate it to C++ to be able to run it on the reader and make the code faster (for the moment, the running time of the algorithm in MatLab is too long for practical use).  
-- Once the algorithm is coded in C++, we can further improve it.  
+- We then need to compile this code to be able to run it on the reader and make the code faster (for the moment, the running time of the algorithm in MatLab is too long for practical use). Later on we can translate it to C++ if we have the time and find that it's useful.
+- Once the algorithm is coded in C++ and that we have a first viable product, we can further improve it.  
   
 #### The reader
 - We need to make the algorithm work on the reader's chip, which is very different from running the code on a computer.  
