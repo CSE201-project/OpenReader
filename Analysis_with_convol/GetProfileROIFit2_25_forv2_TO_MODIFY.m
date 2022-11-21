@@ -60,9 +60,9 @@ WTH = 3;
 % file = "/Users/spark/Desktop/Pictures";  % Here just paste a Picture file path 
 % [pn, ~, ~] = fileparts(file);  % pn1: path
 
-fprintf("CHOSE THE OpenReader PROJECT FOLDER!");
-proj_path = uigetdir();  % Choose directory of OpenReader project folder
-
+%fprintf("CHOSE THE OpenReader PROJECT FOLDER!");
+%proj_path = uigetdir();  % Choose directory of OpenReader project folder
+proj_path = pwd;
 pn = proj_path + "/Pictures";
 cd(pn);
 a1 = dir('*.png');
@@ -154,7 +154,7 @@ pause(0.7);
 %-------------------------------------------------------------------------
 
 % Bogdana modified up to here
-cd(proj_path + "/Analysis_with_convol");
+cd(proj_path);
 % Image selection
 
 I_T1_Raw=I1_T1;
