@@ -1,1 +1,0 @@
-Name;T1;C;BG_T1;BG_C;R�_T1;R�_C;Width_T1;Width_C;T/BG_1;Gain1;ROI1
